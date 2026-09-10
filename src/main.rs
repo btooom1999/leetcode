@@ -22,5 +22,5 @@ mod e3601_3800;
 mod e3801_4000;
 
 fn main() {
-    e601_800::e721_accounts_merge::main();
+    e601_800::e785_is_graph_bipartite::main();
 }

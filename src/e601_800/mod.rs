@@ -89,6 +89,7 @@ pub mod e778_swim_in_rising_water; // 778. Swim in Rising Water
 pub mod e779_k_th_symbol_in_grammar; // 779. K-th Symbol in Grammar
 pub mod e783_minimum_distance_between_bst_nodes; // 783. Minimum Distance Between BST Nodes
 pub mod e784_letter_case_permutation; // 784. Letter Case Permutation
+pub mod e785_is_graph_bipartite; // 785. Is Graph Bipartite?
 pub mod e786_k_th_smallest_prime_fraction; // 786. K-th Smallest Prime Fraction
 pub mod e787_cheapest_flights_within_k_stops; // 787. Cheapest Flights Within K Stops
 pub mod e788_rotated_digits; // 788. Rotated Digits
