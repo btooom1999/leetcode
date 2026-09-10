@@ -60,6 +60,7 @@ pub mod e717_1_bit_and_2_bit_characters; // 717. 1-bit and 2-bit Characters
 pub mod e718_maximum_length_of_repeated_subarray; // 718. Maximum Length of Repeated Subarray
 pub mod e719_find_k_th_smallest_pair_distance; // 719. Find K-th Smallest Pair Distance
 pub mod e720_longest_word_in_dictionary; // 720. Longest Word in Dictionary
+pub mod e721_accounts_merge; // 721. Accounts Merge
 pub mod e723_candy_crush; // 723. Candy Crush
 pub mod e724_find_pivot_index; // 724. Find Pivot Index
 pub mod e725_split_linked_list_in_parts; // 725. Split Linked List in Parts
