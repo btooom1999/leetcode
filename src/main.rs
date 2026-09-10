@@ -22,5 +22,5 @@ mod e3601_3800;
 mod e3801_4000;
 
 fn main() {
-    e1001_1200::e1061_lexicographically_smallest_equivalent_string::main()
+    e3401_3600::e3474_lexicographically_smallest_generated_string::main();
 }

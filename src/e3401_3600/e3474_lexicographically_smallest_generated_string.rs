@@ -22,7 +22,7 @@ fn z_algorithm(p: &[u8], s: &[u8]) -> Vec<usize> {
         }
     }
 
-    z[p.len()+1..].to_vec()
+    z[p.len()+1..z.len()-p.len()+1].to_vec()
 }
 
 fn generate_string(str1: String, str2: String) -> String {
@@ -49,31 +49,33 @@ fn generate_string(str1: String, str2: String) -> String {
     }
 
     let mut z = z_algorithm(str2, &s);
-    println!("before {:?}", z);
-    let mut at = z.len()-1;
-    for i in (0..n).rev() {
-        if str1[i] == b'T' {
-            if z[i] != m {
-                return String::new();
+    for i in 0..z.len() {
+        if str1[i] == b'F' && z[i] == m {
+            let mut cur = i;
+            for k in (0..m).rev() {
+                if i+k >= n || str1[i+k] == b'F' {
+                    cur = cur.max(i+k);
+                } else {
+                    cur = i;
+                }
             }
 
-            at = i.saturating_sub(1);
-        } else if str1[i] == b'F' && z[i] == m {
-            for k in (at.saturating_sub(m-1)..=at).rev() {
+            s[cur] = b'b';
+            for k in (cur+1).saturating_sub(m)..=cur.min(n-1) {
+                if str1[k] == b'T' && z[k] <= m {
+                    return String::new();
+                }
+
                 z[k] -= 1;
             }
-            s[at] = b'b';
-            at = i.saturating_sub(1);
         }
-
-        println!("{:?} {} {}", z, i, String::from_utf8(s.to_vec()).unwrap());
     }
 
     String::from_utf8(s.to_vec()).unwrap()
 }
 
 pub fn main() {
-    let str1 = "TFFF".to_string();
-    let str2 = "aaa".to_string();
+    let str1 = "TTFFT".to_string();
+    let str2 = "fff".to_string();
     println!("{}", generate_string(str1, str2));
 }
