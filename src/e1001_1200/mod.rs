@@ -34,6 +34,7 @@ pub mod e1051_height_checker; // 1051. Height Checker
 pub mod e1052_grumpy_bookstore_owner; // 1052. Grumpy Bookstore Owner
 pub mod e1056_confusing_number; // 1056. Confusing Number
 pub mod e1060_missing_element_in_sorted_array; // 1060. Missing Element in Sorted Array
+pub mod e1061_lexicographically_smallest_equivalent_string; // 1061. Lexicographically Smallest Equivalent String
 pub mod e1071_greatest_common_divisor_of_strings; // 1071. Greatest Common Divisor of Strings
 pub mod e1072_flip_columns_for_maximum_number_of_equal_rows; // 1072. Flip Columns For Maximum Number of Equal Rows
 pub mod e1079_letter_tile_possibilities; // 1079. Letter Tile Possibilities

@@ -22,5 +22,5 @@ mod e3601_3800;
 mod e3801_4000;
 
 fn main() {
-    e3401_3600::e3455_shortest_matching_substring::main();
+    e1001_1200::e1061_lexicographically_smallest_equivalent_string::main()
 }
