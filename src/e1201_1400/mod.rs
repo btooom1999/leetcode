@@ -58,5 +58,6 @@ pub mod e1391_check_if_there_is_a_valid_path_in_a_grid; // 1391. Check if There 
 pub mod e1392_longest_happy_prefix; // 1392. Longest Happy Prefix
 pub mod e1394_find_lucky_integer_in_an_array; // 1394. Find Lucky Integer in an Array
 pub mod e1395_count_number_of_teams; // 1395. Count Number of Teams
+pub mod e1397_find_all_good_strings; // 1397. Find All Good Strings
 pub mod e1399_count_largest_group; // 1399. Count Largest Group
 pub mod e1400_construct_k_palindrome_strings; // 1400. Construct K Palindrome Strings

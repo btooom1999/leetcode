@@ -38,6 +38,7 @@ pub mod e677_map_sum_pairs; // 677. Map Sum Pairs
 pub mod e678_valid_parenthesis_string; // 678. Valid Parenthesis String
 pub mod e680_valid_palindrome_ii; // 680. Valid Palindrome II
 pub mod e682_baseball_game; // 682. Baseball Game
+pub mod e684_redundant_connection; // 684. Redunrant Connection
 pub mod e686_repeated_string_match; // 686. Repeated String Match
 pub mod e687_longest_univalue_path; // 687. Longest Univalue Path
 pub mod e688_knight_probability_in_chessboard; // 688. Knight Probability in Chessboard

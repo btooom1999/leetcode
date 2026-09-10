@@ -22,5 +22,5 @@ mod e3601_3800;
 mod e3801_4000;
 
 fn main() {
-    e3401_3600::e3474_lexicographically_smallest_generated_string::main();
+    e601_800::e684_redundant_connection::main();
 }
