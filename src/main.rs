@@ -22,5 +22,5 @@ mod e3601_3800;
 mod e3801_4000;
 
 fn main() {
-    e801_1000::e886_possible_bipartition::main();
+    e801_1000::e947_most_stones_removed_with_same_row_or_column::main();
 }

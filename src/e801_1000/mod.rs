@@ -55,6 +55,7 @@ pub mod e938_range_sum_of_bst; // 938. Range Sum of BST
 pub mod e940_distinct_subsequences_ii; // 940. Distinct Subsequences II
 pub mod e945_minimum_increment_to_make_array_unique; // 945. Minimum Increment to Make Array Unique
 pub mod e946_validate_stack_sequences; // 946. Validate Stack Sequences
+pub mod e947_most_stones_removed_with_same_row_or_column; // 947. Most Stones Removed with Same Row or Column
 pub mod e948_bag_of_tokens; // 948. Bag of Tokens
 pub mod e949_largest_time_for_given_digits; // 949. Largest Time for Given Digits
 pub mod e950_reveal_cards_in_increasing_order; // 950. Reveal Cards In Increasing Order
