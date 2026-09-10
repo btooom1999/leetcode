@@ -31,6 +31,7 @@ pub mod e877_stone_game; // 877. Stone Game
 pub mod e880_decoded_string_at_index; // 880. Decoded String at Index
 pub mod e881_boats_to_save_people; // 881. Boats to Save People
 pub mod e883_projection_area_of_3d_shapes; // 883. Projection Area of 3D Shapes
+pub mod e886_possible_bipartition; // 886. Possible Bipartition
 pub mod e889_construct_binary_tree_from_preorder_and_postorder_traversal; // 889. Construct Binary Tree from Preorder and Postorder Traversal
 pub mod e892_surface_area_of_3d_shapes; // 892. Surface Area of 3D Shapes
 pub mod e896_monotonic_array; // 896. Monotonic Array

@@ -1,6 +1,6 @@
 const MOD: i64 = 1_000_000_007;
 
-fn find_good_strings(n: i32, s1: String, s2: String, evil: String) -> i32 {
+fn find_good_strings(_n: i32, _s1: String, _s2: String, _evil: String) -> i32 {
     0
 }
 
