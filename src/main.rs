@@ -22,5 +22,5 @@ mod e3601_3800;
 mod e3801_4000;
 
 fn main() {
-    e801_1000::e990_satisfiability_of_equality_equations::main();
+    e1201_1400::e1202_smallest_string_with_swaps::main()
 }

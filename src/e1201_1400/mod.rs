@@ -1,6 +1,7 @@
 // LeetCode 1201-1400
 
 pub mod e1201_ugly_number_iii; // 1201. Ugly Number III
+pub mod e1202_smallest_string_with_swaps; // 1202. Smallest String With Swaps
 pub mod e1207_unique_number_of_occurrences; // 1207. Unique Number of Occurrences
 pub mod e1208_get_equal_substrings_within_budget; // 1208. Get Equal Substrings Within Budget
 pub mod e1209_remove_all_adjacent_duplicates_in_string_ii; // 1209. Remove All Adjacent Duplicates in String II
