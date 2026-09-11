@@ -76,6 +76,7 @@ pub mod e983_minimum_cost_for_tickets; // 983. Minimum Cost For Tickets
 pub mod e986_interval_list_intersections; // 986. Interval List Intersections
 pub mod e988_smallest_string_starting_from_leaf; // 988. Smallest String Starting From Leaf
 pub mod e989_add_to_array_form_of_integer; // 989. Add to Array-Form of Integer
+pub mod e990_satisfiability_of_equality_equations; // 990. Satisfiability of Equality Equations
 pub mod e991_broken_calculator; // 991. Broken Calculator
 pub mod e993_cousins_in_binary_tree; // 993. Cousins in Binary Tree
 pub mod e994_rotting_oranges; // 994. Rotting Oranges
