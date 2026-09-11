@@ -28,7 +28,8 @@ pub mod e2294_partition_array_such_that_maximum_difference_is_k; // 2294. Partit
 pub mod e2300_successful_pairs_of_spells_and_potions; // 2300. Successful Pairs of Spells and Potions
 pub mod e2301_match_substring_after_replacement; // 2301. Match Substring After Replacement
 pub mod e2305_fair_distribution_of_cookies; // 2305. Fair Distribution of Cookies
-pub mod e2317_maximum_xor_after_operations; // 2317. Maximum XOR After Operations 
+pub mod e2316_count_unreachable_pairs_of_nodes_in_an_undirected_graph; // 2316. Count Unreachable Pairs of Nodes in an Undirected Graph
+pub mod e2317_maximum_xor_after_operations; // 2317. Maximum XOR After Operations
 pub mod e2319_check_if_matrix_is_x_matrix; // 2319. Check if Matrix Is X-Matrix
 pub mod e2328_number_of_increasing_paths_in_a_grid; // 2328. Number of Increasing Paths in a Grid
 pub mod e2330_valid_palindrome_iv; // 2330. Valid Palindrome IV

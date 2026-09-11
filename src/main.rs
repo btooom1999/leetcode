@@ -22,5 +22,5 @@ mod e3601_3800;
 mod e3801_4000;
 
 fn main() {
-    e1601_1800::e1722_minimize_hamming_distance_after_swap_operations::main();
+    e2201_2400::e2316_count_unreachable_pairs_of_nodes_in_an_undirected_graph::main();
 }
