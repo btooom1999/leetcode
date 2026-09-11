@@ -22,5 +22,5 @@ mod e3601_3800;
 mod e3801_4000;
 
 fn main() {
-    e2201_2400::e2368_reachable_nodes_with_restrictions::main();
+    e2401_2600::e2424_longest_uploaded_prefix::main();
 }

@@ -11,6 +11,7 @@ pub mod e2416_sum_of_prefix_scores_of_strings; // 2416. Sum of Prefix Scores of 
 pub mod e2418_sort_the_people; // 2418. Sort the People
 pub mod e2419_longest_subarray_with_maximum_bitwise_and; // 2419. Longest Subarray With Maximum Bitwise AND
 pub mod e2420_find_all_good_indices; // 2420. Find All Good Indices
+pub mod e2424_longest_uploaded_prefix; // 2424. Longest Uploaded Prefix
 pub mod e2425_bitwise_xor_of_all_pairings; // 2425. Bitwise XOR of All Pairings
 pub mod e2427_number_of_common_factors; // 2427. Number of Common Factors
 pub mod e2429_minimize_xor; // 2429. Minimize XOR
