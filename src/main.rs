@@ -22,5 +22,5 @@ mod e3601_3800;
 mod e3801_4000;
 
 fn main() {
-    e1201_1400::e1202_smallest_string_with_swaps::main()
+    e1201_1400::e1319_number_of_operations_to_make_network_connected::main()
 }

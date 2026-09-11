@@ -36,6 +36,7 @@ pub mod e1311_get_watched_videos_by_your_friends; // 1311. Get Watched Videos by
 pub mod e1314_matrix_block_sum; // 1314. Matrix Block Sum
 pub mod e1316_distinct_echo_substrings; // 1316. Distinct Echo Substrings
 pub mod e1318_minimum_flips_to_make_a_or_b_equal_to_c; // 1318. Minimum Flips to Make a OR b Equal to c
+pub mod e1319_number_of_operations_to_make_network_connected; // 1319. Number of Operations to Make Network Connected
 pub mod e1325_delete_leaves_with_a_given_value; // 1325. Delete Leaves With a Given Value
 pub mod e1329_sort_the_matrix_diagonally; // 1329. Sort the Matrix Diagonally
 pub mod e1337_the_k_weakest_rows_in_a_matrix; // 1337. The K Weakest Rows in a Matrix
