@@ -40,6 +40,7 @@ pub mod e2351_first_letter_to_appear_twice; // 2351. First Letter to Appear Twic
 pub mod e2359_find_closest_node_to_given_two_nodes; // 2359. Find Closest Node to Given Two Nodes
 pub mod e2364_count_number_of_bad_pairs; // 2364. Count Number of Bad Pairs
 pub mod e2367_number_of_arithmetic_triplets; // 2367. Number of Arithmetic Triplets
+pub mod e2368_reachable_nodes_with_restrictions; // 2368. Reachable Nodes With Restrictions
 pub mod e2369_check_if_there_is_a_valid_partition_for_the_array; // 2369. Check if There is a Valid Partition For The Array
 pub mod e2370_longest_ideal_subsequence; // 2370. Longest Ideal Subsequence
 pub mod e2375_construct_smallest_number_from_di_string; // 2375. Construct Smallest Number From DI String

@@ -22,5 +22,5 @@ mod e3601_3800;
 mod e3801_4000;
 
 fn main() {
-    e2201_2400::e2316_count_unreachable_pairs_of_nodes_in_an_undirected_graph::main();
+    e2201_2400::e2368_reachable_nodes_with_restrictions::main();
 }
