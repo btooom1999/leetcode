@@ -34,6 +34,7 @@ pub mod e1717_maximum_score_from_removing_substrings; // 1717. Maximum Score Fro
 pub mod e1718_construct_the_lexicographically_largest_valid_sequence; // 1718. Construct the Lexicographically Largest Valid Sequence
 pub mod e1720_decode_xored_array; // 1720. Decode XORed Array
 pub mod e1721_swapping_nodes_in_a_linked_list; // 1721. Swapping Nodes in a Linked List
+pub mod e1722_minimize_hamming_distance_after_swap_operations; // 1722. Minimize Hamming Distance After Swap Operations
 pub mod e1727_largest_submatrix_with_rearrangements; // 1727. Largest Submatrix With Rearrangements
 pub mod e1732_find_the_highest_altitude; // 1732. Find the Highest Altitude
 pub mod e1734_decode_xored_permutation; // 1734. Decode XORed Permutation

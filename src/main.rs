@@ -22,5 +22,5 @@ mod e3601_3800;
 mod e3801_4000;
 
 fn main() {
-    e1201_1400::e1319_number_of_operations_to_make_network_connected::main()
+    e1601_1800::e1722_minimize_hamming_distance_after_swap_operations::main();
 }
