@@ -22,5 +22,5 @@ mod e3601_3800;
 mod e3801_4000;
 
 fn main() {
-    e2401_2600::e2424_longest_uploaded_prefix::main();
+    e2801_3000::e2948_make_lexicographically_smallest_array_by_swapping_elements::main();
 }

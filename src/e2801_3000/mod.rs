@@ -19,6 +19,7 @@ pub mod e2932_maximum_strong_pair_xor_i; // 2932. Maximum Strong Pair XOR I
 pub mod e2938_separate_black_and_white_balls; // 2938. Separate Black and White Balls
 pub mod e2939_maximum_xor_product; // 2939. Maximum Xor Product
 pub mod e2946_matrix_similarity_after_cyclic_shifts; // 2946. Matrix Similarity After Cyclic Shifts
+pub mod e2948_make_lexicographically_smallest_array_by_swapping_elements; // 2948. Make Lexicographically Smallest Array by Swapping Elements
 pub mod e2951_find_the_peaks; // 2951. Find the Peaks
 pub mod e2958_length_of_longest_subarray_with_at_most_k_frequency; // 2958. Length of Longest Subarray With at Most K Frequency
 pub mod e2962_count_subarrays_where_max_element_appears_at_least_k_times; // 2962. Count Subarrays Where Max Element Appears at Least K Times
