@@ -15,3 +15,4 @@ pub mod e3572_maximize_ysum_by_picking_a_triplet_of_distinct_xvalues; // 3572. M
 pub mod e3597_partition_string; // 3597. Partition String
 pub mod e3455_shortest_matching_substring; // 3455. Shortest Matching Substring
 pub mod e3474_lexicographically_smallest_generated_string; // 3474. Lexicographically Smallest Generated String
+pub mod e3493_properties_graph; // 3493. Properties Graph
