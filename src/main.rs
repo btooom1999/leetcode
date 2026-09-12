@@ -22,5 +22,5 @@ mod e3601_3800;
 mod e3801_4000;
 
 fn main() {
-    e3401_3600::e3493_properties_graph::main();
+    e3401_3600::e3532_path_existence_queries_in_a_graph_i::main();
 }
