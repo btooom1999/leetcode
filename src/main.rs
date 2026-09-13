@@ -22,5 +22,5 @@ mod e3601_3800;
 mod e3801_4000;
 
 fn main() {
-    e3601_3800::e3607_power_grid_maintenance::main();
+    e3601_3800::e3608_minimum_time_for_k_connected_components::main();
 }

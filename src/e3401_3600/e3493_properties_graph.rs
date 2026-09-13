@@ -1,5 +1,3 @@
-use std::collections::HashSet;
-
 fn find(map: &mut Vec<usize>, x: usize) -> usize {
     if map[x] != x {
         map[x] = find(map, map[x]);
@@ -22,7 +20,7 @@ fn union(map: &mut Vec<usize>, a: usize, b: usize) -> usize {
 }
 
 fn number_of_components(properties: Vec<Vec<i32>>, k: i32) -> i32 {
-    let (n, m) = (properties.len(), properties[0].len());
+    let n = properties.len();
     let mut map = (0..n).collect::<Vec<_>>();
 
     let mut res = [false; 101];
@@ -34,7 +32,7 @@ fn number_of_components(properties: Vec<Vec<i32>>, k: i32) -> i32 {
 
         for b in a+1..n {
             let mut count = 0;
-            let mut hashset = hashset.clone();
+            let mut hashset = hashset.to_vec();
             for &num in &properties[b] {
                 count += hashset[num as usize] as i32;
                 hashset[num as usize] = false;
