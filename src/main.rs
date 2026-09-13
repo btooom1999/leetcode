@@ -22,5 +22,5 @@ mod e3601_3800;
 mod e3801_4000;
 
 fn main() {
-    e3601_3800::e3619_count_islands_with_total_value_divisible_by_k::main();
+    e801_1000::e959_regions_cut_by_slashes::main();
 }

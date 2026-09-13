@@ -63,6 +63,7 @@ pub mod e951_flip_equivalent_binary_trees; // 951. Flip Equivalent Binary Trees
 pub mod e953_verifying_an_alien_dictionary; // 953. Verifying an Alien Dictionary
 pub mod e957_prison_cells_after_n_days; // 957. Prison Cells After N Days
 pub mod e958_check_completeness_of_a_binary_tree; // 958. Check Completeness of a Binary Tree
+pub mod e959_regions_cut_by_slashes; // 959. Regions Cut By Slashes
 pub mod e962_maximum_width_ramp; // 962. Maximum Width Ramp
 pub mod e965_univalued_binary_tree; // 965. Univalued Binary Tree
 pub mod e973_k_closest_points_to_origin; // 973. K Closest Points to Origin
