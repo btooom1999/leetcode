@@ -22,5 +22,5 @@ mod e3601_3800;
 mod e3801_4000;
 
 fn main() {
-    e801_1000::e959_regions_cut_by_slashes::main();
+    e601_800::e765_couples_holding_hands::main();
 }

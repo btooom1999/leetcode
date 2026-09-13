@@ -39,6 +39,7 @@ pub mod e678_valid_parenthesis_string; // 678. Valid Parenthesis String
 pub mod e680_valid_palindrome_ii; // 680. Valid Palindrome II
 pub mod e682_baseball_game; // 682. Baseball Game
 pub mod e684_redundant_connection; // 684. Redunrant Connection
+pub mod e685_redundant_connection_ii; // 685. Redundant Connection II
 pub mod e686_repeated_string_match; // 686. Repeated String Match
 pub mod e687_longest_univalue_path; // 687. Longest Univalue Path
 pub mod e688_knight_probability_in_chessboard; // 688. Knight Probability in Chessboard
@@ -80,6 +81,7 @@ pub mod e760_find_anagram_mappings; // 760. Find Anagram Mappings
 pub mod e762_prime_number_of_set_bits_in_binary_representation; // 762. Prime Number of Set Bits in Binary Representation
 pub mod e763_partition_labels; // 763. Partition Labels
 pub mod e764_largest_plus_sign; // 764. Largest Plus Sign
+pub mod e765_couples_holding_hands; // 765. Couples Holding Hands
 pub mod e766_toeplitz_matrix; // 766. Toeplitz Matrix
 pub mod e767_reorganize_string; // 767. Reorganize String
 pub mod e768_max_chunks_to_make_sorted_ii; // 768. Max Chunks To Make Sorted II
