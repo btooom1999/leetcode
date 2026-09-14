@@ -50,6 +50,7 @@ pub mod e266_palindrome_permutation; // 266. Palindrome Permutation
 pub mod e268_missing_number; // 268. Missing Number
 pub mod e270_closest_binary_search_tree_value; // 270. Closest Binary Search Tree Value
 pub mod e271_encode_and_decode_strings; // 271. Encode and Decode Strings
+pub mod e273_integer_to_english_words; // 273. Integer to English Words
 pub mod e278_first_bad_version; // 278. First Bad Version
 pub mod e279_perfect_squares; // 279. Perfect Squares
 pub mod e280_wiggle_sort; // 280. Wiggle Sort
