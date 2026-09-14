@@ -53,6 +53,7 @@ pub mod e271_encode_and_decode_strings; // 271. Encode and Decode Strings
 pub mod e278_first_bad_version; // 278. First Bad Version
 pub mod e279_perfect_squares; // 279. Perfect Squares
 pub mod e280_wiggle_sort; // 280. Wiggle Sort
+pub mod e282_expression_add_operators; // 282. Expression Add Operators
 pub mod e283_move_zeroes; // 283. Move Zeroes
 pub mod e286_walls_and_gates; // 286. Walls and Gates
 pub mod e287_find_the_duplicate_number; // 287. Find the Duplicate Number
