@@ -1,26 +1,25 @@
 use std::collections::HashMap;
 
-fn dfs(num: i32, str: &[u8], hashmap: &HashMap<i32, String>) -> String {
-    if str.len() <= 2 {
-        let mut num1 = String::from_utf8(str.to_vec()).unwrap().parse().unwrap();
-        if let Some(unit) = hashmap.get(&num1) {
+fn dfs(mut num: i32, hashmap: &HashMap<i32, String>) -> String {
+    if num < 100 {
+        if let Some(unit) = hashmap.get(&num) {
             return unit.to_string();
-        } else {
-            let num2 = num1 % 10;
-            num1 = num1 / 10 * 10;
-            return format!("{} {}", hashmap[&num1], hashmap[&num2]);
         }
+
+        let num2 = num % 10;
+        num = num / 10 * 10;
+        return format!("{} {}", hashmap[&num], hashmap[&num2]);
     }
 
-    let n = str.len();
+    let n = num.to_string().len();
     for i in 0..n {
         let base = (n-i-1) as u32;
         if let Some(unit) = hashmap.get(&10i32.pow(base)) {
             let num1 = num / 10_i32.pow(base);
             let num2 = num % 10_i32.pow(base);
-            let first = dfs(num1, &str[..=i], hashmap);
+            let first = dfs(num1, hashmap);
             if num2 != 0 {
-                let second = dfs(num2, num2.to_string().as_bytes(), hashmap);
+                let second = dfs(num2, hashmap);
                 return format!("{first} {unit} {second}");
             }
 
@@ -66,7 +65,7 @@ fn number_to_words(num: i32) -> String {
     hashmap.insert(1_000_000, "Million".to_string());
     hashmap.insert(1_000_000_000, "Billion".to_string());
 
-    dfs(num, num.to_string().as_bytes(), &hashmap)
+    dfs(num, &hashmap)
 }
 
 pub fn main() {

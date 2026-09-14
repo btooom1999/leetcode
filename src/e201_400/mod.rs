@@ -60,6 +60,7 @@ pub mod e286_walls_and_gates; // 286. Walls and Gates
 pub mod e287_find_the_duplicate_number; // 287. Find the Duplicate Number
 pub mod e289_game_of_life; // 289. Game of Life
 pub mod e290_word_pattern; // 290. Word Pattern
+pub mod e297_serialize_and_deserialize_binary_tree; // 297. Serialize and Deserialize Binary Tree
 pub mod e298_binary_tree_longest_consecutive_sequence; // 298. Binary Tree Longest Consecutive Sequence
 pub mod e299_bulls_and_cows; // 299. Bulls and Cows
 pub mod e300_longest_increasing_subsequence; // 300. Longest Increasing Subsequence
