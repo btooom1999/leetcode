@@ -37,6 +37,7 @@ pub mod e461_hamming_distance; // 461. Hamming Distance
 pub mod e462_minimum_moves_to_equal_array_elements_ii; // 462. Minimum Moves to Equal Array Elements II
 pub mod e463_island_perimeter; // 463. Island Perimeter
 pub mod e464_can_i_win; // 464. Can I Win
+pub mod e466_count_the_repetitions; // 466. Count The Repetitions
 pub mod e467_unique_substrings_in_wraparound_string; // 467. Unique Substrings in Wraparound String
 pub mod e473_matchsticks_to_square; // 473. Matchsticks to Square
 pub mod e474_ones_and_zeroes; // 474. Ones and Zeroes

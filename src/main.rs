@@ -22,5 +22,5 @@ mod e3601_3800;
 mod e3801_4000;
 
 fn main() {
-    e401_600::e420_strong_password_checker::main();
+    e401_600::e466_count_the_repetitions::main();
 }
