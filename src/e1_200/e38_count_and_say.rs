@@ -28,10 +28,6 @@ fn map_to_str(map: Vec<(usize, u8)>) -> String {
 }
 
 fn count_and_say(mut n: i32) -> String {
-    if n == 1 {
-        return "1".to_string();
-    }
-
     let mut str = "1".to_string();
     n -= 1;
     while n > 0 {
