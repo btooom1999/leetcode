@@ -34,6 +34,7 @@ pub mod e34_find_first_and_last_position_of_element_in_sorted_array; // 34. Find
 pub mod e35_search_insert_position; // 35. Search Insert Position
 pub mod e36_valid_sudoku; // 36. Valid Sudoku
 pub mod e37_sudoku_solver; // 37. Sudoku Solver
+pub mod e38_count_and_say; // 38. Count and Say;
 pub mod e39_combination_sum; // 39. Combination Sum
 pub mod e40_combination_sum_ii; // 40. Combination Sum II
 pub mod e41_first_missing_positive; // 41. First Missing Positive
