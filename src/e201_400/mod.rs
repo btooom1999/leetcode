@@ -64,6 +64,7 @@ pub mod e297_serialize_and_deserialize_binary_tree; // 297. Serialize and Deseri
 pub mod e298_binary_tree_longest_consecutive_sequence; // 298. Binary Tree Longest Consecutive Sequence
 pub mod e299_bulls_and_cows; // 299. Bulls and Cows
 pub mod e300_longest_increasing_subsequence; // 300. Longest Increasing Subsequence
+pub mod e301_remove_invalid_parenthese; // 301. Remove Invalid Parentheses
 pub mod e303_range_sum_query_immutable; // 303. Range Sum Query - Immutable
 pub mod e304_range_sum_query_2d_immutable; // 304. Range Sum Query 2D - Immutable
 pub mod e309_best_time_to_buy_and_sell_stock_with_cooldown; // 309. Best Time to Buy and Sell Stock with Cooldown
@@ -79,6 +80,7 @@ pub mod e323_number_of_connected_components_in_an_undirected_graph; // 323. Numb
 pub mod e326_power_of_three; // 326. Power of Three
 pub mod e329_longest_increasing_path_in_a_matrix; // 329. Longest Increasing Path in a Matrix
 pub mod e331_verify_preorder_serialization_of_a_binary_tree; // 331. Verify Preorder Serialization of a Binary Tree
+pub mod e332_reconstruct_itinerary; // 332. Reconstruct Itinerary
 pub mod e333_largest_bst_subtree; // 333. Largest BST Subtree
 pub mod e334_increasing_triplet_subsequence; // 334. Increasing Triplet Subsequence
 pub mod e336_palindrome_pairs; // 336. Palindrome Pairs

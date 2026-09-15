@@ -13,6 +13,7 @@ pub mod e414_third_maximum_number; // 414. Third Maximum Number
 pub mod e416_partition_equal_subset_sum; // 416. Partition Equal Subset Sum
 pub mod e417_pacific_atlantic_water_flow; // 417. Pacific Atlantic Water Flow
 pub mod e419_battleships_in_a_board; // 419. Battleships in a Board
+pub mod e420_strong_password_checker; // 420. Strong Password Checker
 pub mod e421_maximum_xor_of_two_numbers_in_an_array; // 421. Maximum XOR of Two Numbers in an Array
 pub mod e422_valid_word_square; // 422. Valid Word Square
 pub mod e424_longest_repeating_character_replacement; // 424. Longest Repeating Character Replacement
