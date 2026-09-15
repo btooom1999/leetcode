@@ -39,6 +39,7 @@ pub mod e463_island_perimeter; // 463. Island Perimeter
 pub mod e464_can_i_win; // 464. Can I Win
 pub mod e466_count_the_repetitions; // 466. Count The Repetitions
 pub mod e467_unique_substrings_in_wraparound_string; // 467. Unique Substrings in Wraparound String
+pub mod e472_concatenated_words; // 472. Concatenated Words
 pub mod e473_matchsticks_to_square; // 473. Matchsticks to Square
 pub mod e474_ones_and_zeroes; // 474. Ones and Zeroes
 pub mod e476_number_complement; // 476. Number Complement

@@ -30,7 +30,7 @@ fn strong_password_checker(password: String) -> i32 {
         }
 
         for b in password.iter_mut() {
-            if special_chars.contains(b) {
+            if !b.is_ascii_alphanumeric() {
                 if !has_digit {
                     *b = b'0';
                     has_digit = true;
@@ -68,15 +68,12 @@ fn strong_password_checker(password: String) -> i32 {
 
     let mut amount = (n as i32 - 20).max(0);
     while amount > 0 && let Some(Reverse(min)) = heap.pop() {
-        if min.1 < 3 {
-            heap.push(Reverse((999, min.1)));
-            if min.0 == 999 { break; }
-        } else {
-            let k = (min.0+1).min(amount);
-            let b = min.1 - k;
-            let a = b % 3;
-            res += k;
-            amount -= k;
+        let k = (min.0+1).min(amount);
+        let b = min.1 - k;
+        let a = b % 3;
+        res += k;
+        amount -= k;
+        if b > 2 {
             heap.push(Reverse((a, b)));
         }
     }
