@@ -22,5 +22,5 @@ mod e3601_3800;
 mod e3801_4000;
 
 fn main() {
-    e401_600::e488_zuma_game::main();
+    e801_1000::e851_loud_and_rich::main();
 }

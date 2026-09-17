@@ -15,6 +15,7 @@ pub mod e841_keys_and_rooms; // 841. Keys and Rooms
 pub mod e844_backspace_string_compare; // 844. Backspace String Compare
 pub mod e845_longest_mountain_in_array; // 845. Longest Mountain in Array
 pub mod e846_hand_of_straights; // 846. Hand of Straights
+pub mod e851_loud_and_rich; // 851. Loud and Rich
 pub mod e852_peak_index_in_a_mountain_array; // 852. Peak Index in a Mountain Array
 pub mod e853_car_fleet; // 853. Car Fleet
 pub mod e856_score_of_parentheses; // 856. Score of Parentheses
