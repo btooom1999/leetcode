@@ -22,5 +22,5 @@ mod e3601_3800;
 mod e3801_4000;
 
 fn main() {
-    e1801_2000::e1976_number_of_ways_to_arrive_at_destination::main();
+    e601_800::e743_network_delay_time::main();
 }

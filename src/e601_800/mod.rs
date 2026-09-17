@@ -74,6 +74,7 @@ pub mod e735_asteroid_collision; // 735. Asteroid Collision
 pub mod e739_daily_temperatures; // 739. Daily Temperatures
 pub mod e740_delete_and_earn; // 740. Delete and Earn
 pub mod e741_cherry_pickup; // 741. Cherry Pickup
+pub mod e743_network_delay_time; // 743. Network Delay Time
 pub mod e746_min_cost_climbing_stairs; // 746. Min Cost Climbing Stairs
 pub mod e749_contain_virus; // 749. Contain Virus
 pub mod e756_pyramid_transition_matrix; // 756. Pyramid Transition Matrix
