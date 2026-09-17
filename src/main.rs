@@ -22,5 +22,5 @@ mod e3601_3800;
 mod e3801_4000;
 
 fn main() {
-    e1601_1800::e1786_number_of_restricted_paths_from_first_to_last_node::main();
+    e1801_2000::e1976_number_of_ways_to_arrive_at_destination::main();
 }
