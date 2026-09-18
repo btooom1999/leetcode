@@ -58,6 +58,7 @@ pub mod e2181_merge_nodes_in_between_zeros; // 2181. Merge Nodes in Between Zero
 pub mod e2182_construct_string_with_repeat_limit; // 2182. Construct String With Repeat Limit
 pub mod e2185_counting_words_with_a_given_prefix; // 2185. Counting Words With a Given Prefix
 pub mod e2187_minimum_time_to_complete_trips; // 2187. Minimum Time to Complete Trips
+pub mod e2192_all_ancestors_of_a_node_in_a_directed_acyclic_graph; // 2192. All Ancestors of a Node in a Directed Acyclic Graph
 pub mod e2194_cells_in_a_range_on_an_excel_sheet; // 2194. Cells in a Range on an Excel Sheet
 pub mod e2196_create_binary_tree_from_descriptions; // 2196. Create Binary Tree From Descriptions
 pub mod e2197_replace_non_coprime_numbers_in_array; // 2197. Replace Non-Coprime Numbers in Array
