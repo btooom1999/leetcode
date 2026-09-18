@@ -35,6 +35,7 @@ pub mod e883_projection_area_of_3d_shapes; // 883. Projection Area of 3D Shapes
 pub mod e886_possible_bipartition; // 886. Possible Bipartition
 pub mod e889_construct_binary_tree_from_preorder_and_postorder_traversal; // 889. Construct Binary Tree from Preorder and Postorder Traversal
 pub mod e892_surface_area_of_3d_shapes; // 892. Surface Area of 3D Shapes
+pub mod e895_maximum_frequency_stack; // 895. Maximum Frequency Stack
 pub mod e896_monotonic_array; // 896. Monotonic Array
 pub mod e897_increasing_order_search_tree; // 897. Increasing Order Search Tree
 pub mod e898_bitwise_ors_of_subarrays; // 898. Bitwise ORs of Subarrays

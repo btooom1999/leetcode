@@ -22,5 +22,5 @@ mod e3601_3800;
 mod e3801_4000;
 
 fn main() {
-    e201_400::e210_course_schedule_ii::main();
+    e801_1000::e895_maximum_frequency_stack::main();
 }

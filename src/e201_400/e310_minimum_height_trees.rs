@@ -1,33 +1,37 @@
-fn dfs(
-    map: &Vec<Vec<usize>>,
-    visited: &mut Vec<bool>,
-    i: usize,
-    level: i32,
-    min: &mut i32,
-    result: &mut Vec<i32>,
-) -> i32 {
-    if visited.iter().all(|v| *v) {
-        return 0;
-    }
+use std::collections::VecDeque;
 
+fn create_level(
+    level: &mut Vec<i32>,
+    map: &Vec<Vec<usize>>,
+    i: usize,
+    visited: &mut Vec<bool>,
+) -> i32 {
+    let mut max  = 1;
     visited[i] = true;
-    let mut max = 0;
     for &next_i in &map[i] {
         if !visited[next_i] {
-            max = max.max(dfs(map, visited, next_i, level+1, min, result));
+            max = max.max(1+create_level(level, map, next_i, visited));
         }
     }
 
-    println!("{} {} {}", i, level, max);
-    let current_min = level.max(max);
-    if current_min < *min {
-        *result = vec![i as i32];
-        *min = current_min;
-    } else if current_min == *min {
-        result.push(i as i32);
-    }
+    level[i] = max;
+    max
+}
 
-    max+1
+fn create_up_down_level(
+    level: &mut Vec<i32>,
+    map: &Vec<Vec<usize>>,
+    i: usize,
+    visited: &mut Vec<bool>,
+    lv: i32,
+) {
+    visited[i] = true;
+    level[i] = lv;
+    for &next_i in &map[i] {
+        if !visited[next_i] {
+            create_up_down_level(level, map, next_i, visited, lv+1);
+        }
+    }
 }
 
 fn find_min_height_trees(n: i32, edges: Vec<Vec<i32>>) -> Vec<i32> {
@@ -39,10 +43,51 @@ fn find_min_height_trees(n: i32, edges: Vec<Vec<i32>>) -> Vec<i32> {
         map[b].push(a);
     }
 
-    let mut result = vec![];
-    dfs(&map, &mut vec![false; n], 0, 0, &mut (n as i32), &mut result);
+    let mut level = vec![0; n];
+    let mut visited = vec![false; n];
+    create_level(&mut level, &map, 0, &mut visited);
 
-    result
+    visited = vec![false; n];
+    visited[0] = true;
+    let mut res = (vec![], level[0]);
+    let mut q = VecDeque::from([(0, 1)]);
+    let mut cur_lv = 1;
+    let mut parents = vec![];
+    while let Some((i, lv)) = q.pop_front() {
+        if lv != cur_lv {
+            while let Some(i) = parents.pop() {
+                level[i] = cur_lv.min(level[i]);
+            }
+
+            cur_lv = lv;
+        }
+
+        parents.push(i);
+
+        let max_lv = lv.max(level[i]);
+        println!("{} {}", i, max_lv);
+        if res.1 > max_lv {
+            res = (vec![i as i32], max_lv);
+        } else if res.1 == max_lv {
+            res.0.push(i as i32);
+        }
+
+        for &next_i in &map[i] {
+            let mut max_lv = lv;
+            for &j in &map[i] {
+                if j != next_i {
+                    max_lv = max_lv.max(1+level[j]);
+                }
+            }
+
+            if !visited[next_i] {
+                visited[next_i] = true;
+                q.push_back((next_i, max_lv+1));
+            }
+        }
+    }
+
+    res.0
 }
 
 pub fn main() {
