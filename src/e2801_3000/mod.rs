@@ -7,6 +7,7 @@ pub mod e2850_minimum_moves_to_spread_stones_over_grid; // 2850. Minimum Moves t
 pub mod e2859_sum_of_values_at_indices_with_k_set_bits; // 2859. Sum of Values at Indices With K Set Bits
 pub mod e2864_maximum_odd_binary_number; // 2864. Maximum Odd Binary Number
 pub mod e2865_beautiful_towers_i; // 2865. Beautiful Towers I
+pub mod e2866_beautiful_towers_ii; // 2866. Beautiful Towers II
 pub mod e2869_minimum_operations_to_collect_elements; // 2869. Minimum Operations to Collect Elements
 pub mod e2873_maximum_value_of_an_ordered_triplet_i; // 2873. Maximum Value of an Ordered Triplet I
 pub mod e2906_construct_product_matrix; // 2906. Construct Product Matrix
