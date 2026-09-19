@@ -23,6 +23,7 @@ pub mod e2275_largest_combination_with_bitwise_and_greater_than_zero; // 2275. L
 pub mod e2278_percentage_of_letter_in_string; // 2278. Percentage of Letter in String
 pub mod e2283_check_if_number_has_equal_digit_count_and_digit_value; // 2283. Check if Number Has Equal Digit Count and Digit Value
 pub mod e2285_maximum_total_importance_of_roads; // 2285. Maximum Total Importance of Roads
+pub mod e2289_steps_to_make_array_non_decreasing; // 2289. Steps to Make Array Non-decreasing
 pub mod e2293_min_max_game; // 2293. Min Max Game
 pub mod e2294_partition_array_such_that_maximum_difference_is_k; // 2294. Partition Array Such That Maximum Difference Is K
 pub mod e2300_successful_pairs_of_spells_and_potions; // 2300. Successful Pairs of Spells and Potions
