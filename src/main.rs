@@ -22,5 +22,5 @@ mod e3601_3800;
 mod e3801_4000;
 
 fn main() {
-    e2201_2400::e2289_steps_to_make_array_non_decreasing::main();
+    e2801_3000::e2865_beautiful_towers_i::main();
 }
