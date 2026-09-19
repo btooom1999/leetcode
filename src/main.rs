@@ -22,5 +22,5 @@ mod e3601_3800;
 mod e3801_4000;
 
 fn main() {
-    e2801_3000::e2865_beautiful_towers_i::main();
+    e1801_2000::e1996_the_number_of_weak_characters_in_the_game::main();
 }

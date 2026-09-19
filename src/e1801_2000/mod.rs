@@ -63,3 +63,4 @@ pub mod e1991_find_the_middle_index_in_array; // 1991. Find the Middle Index in 
 pub mod e1992_find_all_groups_of_farmland; // 1992. Find All Groups of Farmland
 pub mod e1993_operations_on_tree; // 1993. Operations on Tree
 pub mod e1995_count_special_quadruplets; // 1995. Count Special Quadruplets
+pub mod e1996_the_number_of_weak_characters_in_the_game; // 1996. The Number of Weak Characters in the Game
