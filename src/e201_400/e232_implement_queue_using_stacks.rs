@@ -36,3 +36,7 @@ impl MyQueue {
         self.stack[1].is_empty()
     }
 }
+
+pub fn main() {
+
+}

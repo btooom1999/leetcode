@@ -44,6 +44,7 @@ pub mod e1513_number_of_substrings_with_only_1s; // 1513. Number of Substrings W
 pub mod e1522_diameter_of_n_ary_tree; // 1522. Diameter of N-Ary Tree
 pub mod e1524_number_of_sub_arrays_with_odd_sum; // 1524. Number of Sub-arrays With Odd Sum
 pub mod e1525_number_of_good_ways_to_split_a_string; // 1525. Number of Good Ways to Split a String
+pub mod e1526_minimum_number_of_increments_on_subarrays_to_form_a_target_array; // 1526. Minimum Number of Increments on Subarrays to Form a Target Array
 pub mod e1530_number_of_good_leaf_nodes_pairs; // 1530. Number of Good Leaf Nodes Pairs
 pub mod e1533_find_the_index_of_the_large_integer; // 1533. Find the Index of the Large Integer
 pub mod e1536_minimum_swaps_to_arrange_a_binary_grid; // 1536. Minimum Swaps to Arrange a Binary Grid

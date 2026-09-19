@@ -52,6 +52,7 @@ pub mod e1120_maximum_average_subtree; // 1120. Maximum Average Subtree
 pub mod e1122_relative_sort_array; // 1122. Relative Sort Array
 pub mod e1124_longest_well_performing_interval; // 1124. Longest Well-Performing Interval
 pub mod e1129_shortest_path_with_alternating_colors; // 1129. Shortest Path with Alternating Colors
+pub mod e1130_minimum_cost_tree_from_leaf_values; // 1130. Minimum Cost Tree From Leaf Values
 pub mod e1133_largest_unique_number; // 1133. Largest Unique Number
 pub mod e1137_n_th_tribonacci_number; // 1137. N-th Tribonacci Number
 pub mod e1139_largest_1_bordered_square; // 1139. Largest 1-Bordered Square

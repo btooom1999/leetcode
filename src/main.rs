@@ -22,5 +22,5 @@ mod e3601_3800;
 mod e3801_4000;
 
 fn main() {
-    e801_1000::e895_maximum_frequency_stack::main();
+    e1001_1200::e1130_minimum_cost_tree_from_leaf_values::main();
 }
