@@ -16,4 +16,5 @@ pub mod e3597_partition_string; // 3597. Partition String
 pub mod e3455_shortest_matching_substring; // 3455. Shortest Matching Substring
 pub mod e3474_lexicographically_smallest_generated_string; // 3474. Lexicographically Smallest Generated String
 pub mod e3493_properties_graph; // 3493. Properties Graph
+pub mod e3523_make_array_non_decreasing; // 3523. Make Array Non-decreasing
 pub mod e3532_path_existence_queries_in_a_graph_i; // 3532. Path Existence Queries in a Graph I
