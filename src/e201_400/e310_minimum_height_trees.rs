@@ -51,21 +51,8 @@ fn find_min_height_trees(n: i32, edges: Vec<Vec<i32>>) -> Vec<i32> {
     visited[0] = true;
     let mut res = (vec![], level[0]);
     let mut q = VecDeque::from([(0, 1)]);
-    let mut cur_lv = 1;
-    let mut parents = vec![];
     while let Some((i, lv)) = q.pop_front() {
-        if lv != cur_lv {
-            while let Some(i) = parents.pop() {
-                level[i] = cur_lv.min(level[i]);
-            }
-
-            cur_lv = lv;
-        }
-
-        parents.push(i);
-
         let max_lv = lv.max(level[i]);
-        println!("{} {}", i, max_lv);
         if res.1 > max_lv {
             res = (vec![i as i32], max_lv);
         } else if res.1 == max_lv {
@@ -85,6 +72,8 @@ fn find_min_height_trees(n: i32, edges: Vec<Vec<i32>>) -> Vec<i32> {
                 q.push_back((next_i, max_lv+1));
             }
         }
+
+        level[i] = lv;
     }
 
     res.0

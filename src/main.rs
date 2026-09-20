@@ -22,5 +22,5 @@ mod e3601_3800;
 mod e3801_4000;
 
 fn main() {
-    e1801_2000::e1996_the_number_of_weak_characters_in_the_game::main();
+    e1401_1600::e1526_minimum_number_of_increments_on_subarrays_to_form_a_target_array::main();
 }
