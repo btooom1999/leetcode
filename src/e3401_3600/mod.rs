@@ -18,3 +18,4 @@ pub mod e3474_lexicographically_smallest_generated_string; // 3474. Lexicographi
 pub mod e3493_properties_graph; // 3493. Properties Graph
 pub mod e3523_make_array_non_decreasing; // 3523. Make Array Non-decreasing
 pub mod e3532_path_existence_queries_in_a_graph_i; // 3532. Path Existence Queries in a Graph I
+pub mod e3542_minimum_operations_to_convert_all_elements_to_zero; // 3542. Minimum Operations to Convert All Elements to Zero
