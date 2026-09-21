@@ -22,5 +22,5 @@ mod e3601_3800;
 mod e3801_4000;
 
 fn main() {
-    e3401_3600::e3542_minimum_operations_to_convert_all_elements_to_zero::main();
+    e3601_3800::e3638_maximum_balanced_shipments::main();
 }
