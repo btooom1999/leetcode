@@ -23,5 +23,5 @@ mod e3801_4000;
 mod e4001_e4200;
 
 fn main() {
-    e4001_e4200::e4045_count_robot_groups::main();
+    e4001_e4200::e4054_count_shadow_pairs_i::main();
 }

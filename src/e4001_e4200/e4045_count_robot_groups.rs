@@ -1,22 +1,15 @@
 fn count_groups(position: Vec<i32>, speed: Vec<i32>, distance: i32) -> i32 {
     let n = position.len();
-    let mut data = vec![];
-    for i in 0..n {
-        if i+1 < n && position[i+1]-position[i]<=distance {
-            continue;
-        }
-
-        data.push(i);
-    }
-
-    let mut stack = vec![];
-    for i in (0..data.len()).rev() {
-        if stack.last().is_none_or(|&k| speed[data[k]] >= speed[data[i]]) {
-            stack.push(i);
+    let mut min = speed[n-1];
+    let mut res = 1;
+    for i in (0..n-1).rev() {
+        if min >= speed[i] && position[i+1]-position[i] > distance {
+            res += 1;
+            min = speed[i];
         }
     }
 
-    stack.len() as i32
+    res
 }
 
 pub fn main() {
