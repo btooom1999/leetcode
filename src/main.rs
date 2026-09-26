@@ -23,5 +23,5 @@ mod e3801_4000;
 mod e4001_e4200;
 
 fn main() {
-    e3801_4000::e3878_count_good_subarrays::main();
+    e3801_4000::e3816_lexicographically_smallest_string_after_deleting_duplicate_characters::main();
 }
