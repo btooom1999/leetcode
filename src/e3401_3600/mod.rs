@@ -1,6 +1,8 @@
 // LeetCode 3401-3600
 
 pub mod e3411_maximum_subarray_with_equal_products; // 3411. Maximum Subarray With Equal Products
+pub mod e3420_count_non_decreasing_subarrays_after_k_operations; // 3420. Count Non-Decreasing Subarrays After K Operations
+pub mod e3430_maximum_and_minimum_sums_of_at_most_size_k_subarrays; // 3430. Maximum and Minimum Sums of at Most Size K Subarrays
 pub mod e3432_count_partitions_with_even_sum_difference; // 3432. Count Partitions with Even Sum Difference
 pub mod e3434_maximum_frequency_after_subarray_operation; // 3434. Maximum Frequency After Subarray Operation
 pub mod e3442_maximum_difference_between_even_and_odd_frequency_i; // 3442. Maximum Difference Between Even and Odd Frequency I
