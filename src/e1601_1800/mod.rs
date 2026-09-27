@@ -55,4 +55,5 @@ pub mod e1769_minimum_number_of_operations_to_move_all_balls_to_each_box; // 176
 pub mod e1784_check_if_binary_string_has_at_most_one_segment_of_ones; // 1784. Check if Binary String Has at Most One Segment of Ones
 pub mod e1786_number_of_restricted_paths_from_first_to_last_node; // Number of Restricted Paths From First to Last Node
 pub mod e1790_check_if_one_string_swap_can_make_strings_equal; // 1790. Check if One String Swap Can Make Strings Equal
+pub mod e1793_maximum_score_of_a_good_subarray; // 1793. Maximum Score of a Good Subarray
 pub mod e1800_maximum_ascending_subarray_sum; // 1800. Maximum Ascending Subarray Sum
