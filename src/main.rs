@@ -24,5 +24,5 @@ mod e3801_4000;
 mod e4001_e4200;
 
 fn main() {
-    e3201_3400::e3229_minimum_operations_to_make_array_equal_to_target::main();
+    e3001_3200::e3113_find_the_number_of_subarrays_where_boundary_elements_are_maximum::main();
 }
