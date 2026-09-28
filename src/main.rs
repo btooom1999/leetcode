@@ -24,5 +24,5 @@ mod e3801_4000;
 mod e4001_e4200;
 
 fn main() {
-    e2801_3000::e2940_find_building_where_alice_and_bob_can_meet::main();
+    e2801_3000::e2945_find_maximum_non_decreasing_array_length::main();
 }
