@@ -20,6 +20,7 @@ pub mod e2924_find_champion_ii; // 2924. Find Champion II
 pub mod e2932_maximum_strong_pair_xor_i; // 2932. Maximum Strong Pair XOR I
 pub mod e2938_separate_black_and_white_balls; // 2938. Separate Black and White Balls
 pub mod e2939_maximum_xor_product; // 2939. Maximum Xor Product
+pub mod e2940_find_building_where_alice_and_bob_can_meet; // 2940. Find Building Where Alice and Bob Can Meet
 pub mod e2946_matrix_similarity_after_cyclic_shifts; // 2946. Matrix Similarity After Cyclic Shifts
 pub mod e2948_make_lexicographically_smallest_array_by_swapping_elements; // 2948. Make Lexicographically Smallest Array by Swapping Elements
 pub mod e2951_find_the_peaks; // 2951. Find the Peaks

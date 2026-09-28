@@ -24,5 +24,5 @@ mod e3801_4000;
 mod e4001_e4200;
 
 fn main() {
-    e3001_3200::e3113_find_the_number_of_subarrays_where_boundary_elements_are_maximum::main();
+    e2801_3000::e2940_find_building_where_alice_and_bob_can_meet::main();
 }
