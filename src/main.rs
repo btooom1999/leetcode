@@ -1,4 +1,5 @@
 #![allow(dead_code)]
+#![allow(clippy::needless_range_loop)]
 
 mod e1_200;
 mod e201_400;
@@ -23,5 +24,5 @@ mod e3801_4000;
 mod e4001_e4200;
 
 fn main() {
-    e1601_1800::e1793_maximum_score_of_a_good_subarray::main();
+    e3201_3400::e3229_minimum_operations_to_make_array_equal_to_target::main();
 }

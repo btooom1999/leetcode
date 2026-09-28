@@ -21,7 +21,7 @@ fn maximum_score(nums: Vec<i32>, k: i32) -> i32 {
 
     let mut l = 0;
     let mut r = n-1;
-    let mut res = 0;
+    let mut res = nums[k];
     let mut l_val = nums[left.pop().unwrap()];
     let mut r_val = nums[right.pop().unwrap()];
     while !left.is_empty() || !right.is_empty() {
@@ -38,7 +38,7 @@ fn maximum_score(nums: Vec<i32>, k: i32) -> i32 {
         }
     }
 
-    res.max(nums[l])
+    res
 }
 
 pub fn main() {

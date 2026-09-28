@@ -16,6 +16,7 @@ pub mod e3255_find_the_power_of_k_size_subarrays_ii; // 3255. Find the Power of 
 pub mod e3264_final_array_state_after_k_multiplication_operations_i; // 3264. Final Array State After K Multiplication Operations I
 pub mod e3291_minimum_number_of_valid_strings_to_form_target_i; // 3291. Minimum Number of Valid Strings to Form Target I
 pub mod e3292_minimum_number_of_valid_strings_to_form_target_ii; // 3292. Minimum Number of Valid Strings to Form Target II
+pub mod e3229_minimum_operations_to_make_array_equal_to_target; // 3229. Minimum Operations to Make Array Equal to Target
 pub mod e3303_find_the_occurrence_of_first_almost_equal_substring; // 3303. Find the Occurrence of First Almost Equal Substring
 pub mod e3305_count_of_substrings_containing_every_vowel_and_k_consonants_i; // 3305. Count of Substrings Containing Every Vowel and K Consonants I
 pub mod e3306_count_of_substrings_containing_every_vowel_and_k_consonants_ii; // 3306. Count of Substrings Containing Every Vowel and K Consonants II
@@ -25,7 +26,7 @@ pub mod e3319_k_th_largest_perfect_subtree_size_in_binary_tree; // 3319. K-th La
 pub mod e3326_minimum_division_operations_to_make_array_non_decreasing; // 3326. Minimum Division Operations to Make Array Non Decreasing
 pub mod e3327_check_if_dfs_strings_are_palindromes; // 3327. Check if DFS Strings Are Palindromes
 pub mod e3340_check_balanced_string; // 3340. Check Balanced String
-pub mod e3364_minimum_positive_sum_subarray; // 3364. Minimum Positive Sum Subarray 
+pub mod e3364_minimum_positive_sum_subarray; // 3364. Minimum Positive Sum Subarray
 pub mod e3370_smallest_number_with_all_set_bits; // 3370. Smallest Number With All Set Bits
 pub mod e3394_check_if_grid_can_be_cut_into_sections; // 3394. Check if Grid can be Cut into Sections
 pub mod e3396_minimum_number_of_operations_to_make_elements_in_array_distinct; // 3396. Minimum Number of Operations to Make Elements in Array Distinct
