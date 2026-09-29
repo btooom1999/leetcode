@@ -23,6 +23,7 @@ pub mod e2064_minimized_maximum_of_products_distributed_to_any_store; // 2064. M
 pub mod e2070_most_beautiful_item_for_each_query; // 2070. Most Beautiful Item for Each Query
 pub mod e2073_time_needed_to_buy_tickets; // 2073. Time Needed to Buy Tickets
 pub mod e2078_two_furthest_houses_with_different_colors; // 2078. Two Furthest Houses With Different Colors
+pub mod e2080_range_frequency_queries; // 2080. Range Frequency Queries
 pub mod e2087_minimum_cost_homecoming_of_a_robot_in_a_grid; // 2087. Minimum Cost Homecoming of a Robot in a Grid
 pub mod e2088_count_fertile_pyramids_in_a_land; // 2088. Count Fertile Pyramids in a Land
 pub mod e2090_k_radius_subarray_averages; // 2090. K Radius Subarray Averages
