@@ -23,6 +23,7 @@ pub mod e2439_minimize_maximum_of_array; // 2439. Minimize Maximum of Array
 pub mod e2446_determine_if_two_events_have_conflict; // 2446. Determine if Two Events Have Conflict
 pub mod e2447_number_of_subarrays_with_gcd_equal_to_k; // 2447. Number of Subarrays With GCD Equal to K
 pub mod e2452_words_within_two_edits_of_dictionary; // 2452. Words Within Two Edits of Dictionary
+pub mod e2454_next_greater_element_iv; // 2454. Next Greater Element IV
 pub mod e2460_apply_operations_to_an_array; // 2460. Apply Operations to an Array
 pub mod e2461_maximum_sum_of_distinct_subarrays_with_length_k; // 2461. Maximum Sum of Distinct Subarrays With Length K
 pub mod e2466_count_ways_to_build_good_strings; // 2466. Count Ways To Build Good Strings
