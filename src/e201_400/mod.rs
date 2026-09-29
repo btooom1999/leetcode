@@ -67,6 +67,7 @@ pub mod e300_longest_increasing_subsequence; // 300. Longest Increasing Subseque
 pub mod e301_remove_invalid_parenthese; // 301. Remove Invalid Parentheses
 pub mod e303_range_sum_query_immutable; // 303. Range Sum Query - Immutable
 pub mod e304_range_sum_query_2d_immutable; // 304. Range Sum Query 2D - Immutable
+pub mod e307_range_sum_query_mutable; // 307. Range Sum Query - Mutable
 pub mod e309_best_time_to_buy_and_sell_stock_with_cooldown; // 309. Best Time to Buy and Sell Stock with Cooldown
 pub mod e310_minimum_height_trees; // 310. Minimum Height Trees
 pub mod e311_sparse_matrix_multiplication; // 311. Sparse Matrix Multiplication

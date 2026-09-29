@@ -6,15 +6,6 @@ fn second_greater_element(nums: Vec<i32>) -> Vec<i32> {
     let mut stack = vec![];
     let mut res = vec![-1; n];
     for i in 0..n {
-        let mut elements = vec![];
-        while let Some(&last) = stack.last() {
-            if nums[last] < nums[i] {
-                elements.push(stack.pop().unwrap());
-            } else {
-                break;
-            }
-        }
-
         while let Some(&Reverse((min, idx))) = min_heap.peek() {
             if min < nums[i] {
                 res[idx] = nums[i];
@@ -24,8 +15,13 @@ fn second_greater_element(nums: Vec<i32>) -> Vec<i32> {
             }
         }
 
-        for el in elements {
-            min_heap.push(Reverse((nums[el], el)));
+        while let Some(&last) = stack.last() {
+            if nums[last] < nums[i] {
+                let idx = stack.pop().unwrap();
+                min_heap.push(Reverse((nums[idx], idx)));
+            } else {
+                break;
+            }
         }
 
         stack.push(i);
@@ -33,12 +29,6 @@ fn second_greater_element(nums: Vec<i32>) -> Vec<i32> {
 
     res
 }
-
-// [1,17,18,0,18,10,20,0]
-
-// heap = [17,18]
-// temp = [18,10]
-// [20]
 
 pub fn main() {
     let nums = [2,4,0,9,6].to_vec();

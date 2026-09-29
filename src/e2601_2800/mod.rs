@@ -15,6 +15,7 @@ pub mod e2706_buy_two_chocolates; // 2706. Buy Two Chocolates
 pub mod e2707_extra_characters_in_a_string; // 2707. Extra Characters in a String
 pub mod e2708_maximum_strength_of_a_group; // 2708. Maximum Strength of a Group
 pub mod e2716_minimize_string_length; // 2716. Minimize String Length
+pub mod e2736_maximum_sum_queries; // 2736. Maximum Sum Queries
 pub mod e2741_special_permutations; // 2741. Special Permutations
 pub mod e2749_minimum_operations_to_make_the_integer_zero; // 2749. Minimum Operations to Make the Integer Zero
 pub mod e2761_prime_pairs_with_target_sum; // 2761. Prime Pairs With Target Sum
