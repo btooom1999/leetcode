@@ -24,5 +24,5 @@ mod e3801_4000;
 mod e4001_e4200;
 
 fn main() {
-    e2001_2200::e2080_range_frequency_queries::main();
+    e201_400::e307_range_sum_query_mutable::main();
 }

@@ -14,6 +14,7 @@ pub mod e2906_construct_product_matrix; // 2906. Construct Product Matrix
 pub mod e2908_minimum_sum_of_mountain_triplets_i; // 2908. Minimum Sum of Mountain Triplets I
 pub mod e2909_minimum_sum_of_mountain_triplets_ii; // 2909. Minimum Sum of Mountain Triplets II
 pub mod e2914_minimum_number_of_changes_to_make_binary_string_beautiful; // 2914. Minimum Number of Changes to Make Binary String Beautiful
+pub mod e2916_subarrays_distinct_element_sum_of_squares_ii; // 2916. Subarrays Distinct Element Sum of Squares II
 pub mod e2917_find_the_k_or_of_an_array; // 2917. Find the K-or of an Array
 pub mod e2923_find_champion_i; // 2923. Find Champion I
 pub mod e2924_find_champion_ii; // 2924. Find Champion II
