@@ -73,6 +73,7 @@ pub mod e310_minimum_height_trees; // 310. Minimum Height Trees
 pub mod e311_sparse_matrix_multiplication; // 311. Sparse Matrix Multiplication
 pub mod e313_super_ugly_number; // 313. Super Ugly Number
 pub mod e314_binary_tree_vertical_order_traversal; // 314. Binary Tree Vertical Order Traversal
+pub mod e315_count_of_smaller_numbers_after_self; // 315. Count of Smaller Numbers After Self
 pub mod e316_remove_duplicate_letters; // 316. Remove Duplicate Letters
 pub mod e318_maximum_product_of_word_lengths; // 318. Maximum Product of Word Lengths
 pub mod e319_bulb_switcher; // 319. Bulb Switcher
