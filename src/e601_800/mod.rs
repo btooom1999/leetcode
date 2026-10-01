@@ -68,6 +68,7 @@ pub mod e725_split_linked_list_in_parts; // 725. Split Linked List in Parts
 pub mod e728_self_dividing_numbers; // 728. Self Dividing Numbers
 pub mod e729_my_calendar_i; // 729. My Calendar I
 pub mod e731_my_calendar_ii; // 731. My Calendar II
+pub mod e732_my_calendar_iii; // 732. My Calendar III
 pub mod e733_flood_fill; // 733. Flood Fill
 pub mod e734_sentence_similarity; // 734. Sentence Similarity
 pub mod e735_asteroid_collision; // 735. Asteroid Collision
