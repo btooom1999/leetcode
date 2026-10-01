@@ -57,6 +57,7 @@ pub mod e709_to_lower_case; // 709. To Lower Case
 pub mod e712_minimum_ascii_delete_sum_for_two_strings; // 712. Minimum ASCII Delete Sum for Two Strings
 pub mod e713_subarray_product_less_than_k; // 713. Subarray Product Less Than K
 pub mod e714_best_time_to_buy_and_sell_stock_with_transaction_fee; // 714. Best Time to Buy and Sell Stock with Transaction Fee
+pub mod e715_range_module; // 715. Range Module
 pub mod e717_1_bit_and_2_bit_characters; // 717. 1-bit and 2-bit Characters
 pub mod e718_maximum_length_of_repeated_subarray; // 718. Maximum Length of Repeated Subarray
 pub mod e719_find_k_th_smallest_pair_distance; // 719. Find K-th Smallest Pair Distance
