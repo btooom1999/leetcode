@@ -81,6 +81,7 @@ pub mod e321_create_maximum_number; // 321. Create Maximum Number
 pub mod e322_coin_change; // 322. Coin Change
 pub mod e323_number_of_connected_components_in_an_undirected_graph; // 323. Number of Connected Components in an Undirected Graph
 pub mod e326_power_of_three; // 326. Power of Three
+pub mod e327_count_of_range_sum; // 327. Count of Range Sum
 pub mod e329_longest_increasing_path_in_a_matrix; // 329. Longest Increasing Path in a Matrix
 pub mod e331_verify_preorder_serialization_of_a_binary_tree; // 331. Verify Preorder Serialization of a Binary Tree
 pub mod e332_reconstruct_itinerary; // 332. Reconstruct Itinerary
