@@ -50,6 +50,7 @@ pub mod e486_predict_the_winner; // 486. Predict the Winner
 pub mod e487_max_consecutive_ones_ii; // 487. Max Consecutive Ones II
 pub mod e488_zuma_game; // 488. Zuma Game
 pub mod e491_non_decreasing_subsequences; // 491. Non-decreasing Subsequences
+pub mod e493_reverse_pairs; // 493. Reverse Pairs
 pub mod e494_target_sum; // 494. Target Sum
 pub mod e495_teemo_attacking; // 495. Teemo Attacking
 pub mod e496_next_greater_element_i; // 496. Next Greater Element I
