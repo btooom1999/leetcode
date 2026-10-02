@@ -30,18 +30,16 @@ impl SummaryRanges {
 
     fn add_num(&mut self, value: i32) {
         let value = value as usize;
-        if self.rank[value].is_none() {
-            self.rank[value] = Some(value);
-            if value>0 && self.rank[value-1].is_some() {
-                let a = self.rank[value-1].unwrap();
-                let b = self.rank[value].unwrap();
-                union(&mut self.rank, a, b);
-            }
-            if value+1<10_001 && self.rank[value+1].is_some() {
-                let a = self.rank[value].unwrap();
-                let b = self.rank[value+1].unwrap();
-                union(&mut self.rank, a, b);
-            }
+        self.rank[value] = Some(value);
+        if value>0 && self.rank[value-1].is_some() {
+            let a = self.rank[value-1].unwrap();
+            let b = self.rank[value].unwrap();
+            union(&mut self.rank, a, b);
+        }
+        if value+1<10_001 && self.rank[value+1].is_some() {
+            let a = self.rank[value].unwrap();
+            let b = self.rank[value+1].unwrap();
+            union(&mut self.rank, a, b);
         }
     }
 

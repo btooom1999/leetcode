@@ -19,6 +19,7 @@ pub mod e422_valid_word_square; // 422. Valid Word Square
 pub mod e424_longest_repeating_character_replacement; // 424. Longest Repeating Character Replacement
 pub mod e427_construct_quad_tree; // 427. Construct Quad Tree
 pub mod e435_non_overlapping_intervals; // 435. Non-overlapping Intervals
+pub mod e436_find_right_interval; // 436. Find Right Interval
 pub mod e437_path_sum_iii; // 437. Path Sum III
 pub mod e438_find_all_anagrams_in_a_string; // 438. Find All Anagrams in a String
 pub mod e439_ternary_expression_parser; // 439. Ternary Expression Parser
