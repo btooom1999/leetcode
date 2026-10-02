@@ -10,6 +10,7 @@ pub mod e827_making_a_large_island; // 827. Making A Large Island
 pub mod e832_flipping_an_image; // 832. Flipping an Image
 pub mod e837_new_21_game; // 837. New 21 Game
 pub mod e838_push_dominoes; // 838. Push Dominoes
+pub mod e839_similar_string_groups; // 839. Similar String Groups
 pub mod e840_magic_squares_in_grid; // 840. Magic Squares In Grid
 pub mod e841_keys_and_rooms; // 841. Keys and Rooms
 pub mod e844_backspace_string_compare; // 844. Backspace String Compare
