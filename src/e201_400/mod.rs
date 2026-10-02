@@ -23,6 +23,7 @@ pub mod e224_basic_calculator; // 224. Basic Calculator
 pub mod e225_implement_stack_using_queues; // 225. Implement Stack using Queues
 pub mod e226_invert_binary_tree; // 226. Invert Binary Tree
 pub mod e227_basic_calculator_ii; // 227. Basic Calculator II
+pub mod e228_summary_ranges; // 228. Summary Ranges
 pub mod e229_majority_element_ii; // 229. Majority Element II
 pub mod e230_kth_smallest_element_in_a_bst; // 230. Kth Smallest Element in a BST
 pub mod e231_power_of_two; // 231. Power of Two

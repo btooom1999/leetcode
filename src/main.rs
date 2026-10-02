@@ -24,5 +24,5 @@ mod e3801_4000;
 mod e4001_e4200;
 
 fn main() {
-    e401_600::e436_find_right_interval::main();
+    e201_400::e228_summary_ranges::main();
 }
