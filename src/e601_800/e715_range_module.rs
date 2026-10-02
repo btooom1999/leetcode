@@ -1,8 +1,9 @@
+use std::cell::Cell;
 use std::collections::BTreeSet;
 
 #[derive(Debug)]
 struct RangeModule {
-    btreeset: BTreeSet<(i32, i32)>,
+    btreeset: BTreeSet<Cell<(i32, i32)>>,
 }
 
 impl RangeModule {
@@ -11,22 +12,25 @@ impl RangeModule {
     }
 
     fn add_range(&mut self, mut left: i32, mut right: i32) {
-        let mut new_btreeset = BTreeSet::new();
-        for &a in self.btreeset.iter() {
-            if a.1 < left || a.0 > right {
-                new_btreeset.insert(a);
-            } else if (a.0 <= left && left <= a.1) || (a.0 <= right && right <= a.1) {
-                left = left.min(a.0);
-                right = right.max(a.1);
+        self.btreeset.retain(|v| {
+            let v = v.get();
+            if (v.0 <= left && left <= v.1) || (v.0 <= right && right <= v.1) {
+                left = left.min(v.0);
+                right = right.max(v.1);
+                return false;
+            } else if v.1 < left || v.0 > right {
+                return true;
             }
-        }
 
-        new_btreeset.insert((left, right));
-        self.btreeset = new_btreeset;
+            false
+        });
+
+        self.btreeset.insert(Cell::new((left, right)));
     }
 
     fn query_range(&self, mut left: i32, right: i32) -> bool {
-        for &a in self.btreeset.iter() {
+        for a in self.btreeset.iter() {
+            let a = a.get();
             if a.0 <= left && right <= a.1 {
                 return true;
             } else if a.0 <= left && left <= a.1 {
@@ -38,21 +42,29 @@ impl RangeModule {
     }
 
     fn remove_range(&mut self, left: i32, right: i32) {
-        let mut new_btreeset = BTreeSet::new();
-        for &a in self.btreeset.iter() {
-            if a.1 < left || a.0 > right {
-                new_btreeset.insert(a);
-            } else if a.0 < left && a.1 <= right {
-                new_btreeset.insert((a.0, left));
-            } else if left <= a.0 && right < a.1 {
-                new_btreeset.insert((right, a.1));
-            } else if a.0 < left && right < a.1 {
-                new_btreeset.insert((a.0, left));
-                new_btreeset.insert((right, a.1));
+        let mut need = vec![];
+        self.btreeset.retain(|a| {
+            let v = a.get();
+            if v.1 < left || v.0 > right {
+                true
+            } else if v.0 < left && v.1 <= right {
+                a.set((v.0, left));
+                true
+            } else if left <= v.0 && right < v.1 {
+                a.set((right, v.1));
+                true
+            } else if v.0 < left && right < v.1 {
+                a.set((v.0, left));
+                need.push((right, v.1));
+                true
+            } else {
+                false
             }
-        }
+        });
 
-        self.btreeset = new_btreeset;
+        while let Some(key) = need.pop() {
+            self.btreeset.insert(Cell::new(key));
+        }
     }
 }
 

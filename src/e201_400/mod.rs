@@ -98,6 +98,7 @@ pub mod e344_reverse_string; // 344. Reverse String
 pub mod e346_moving_average_from_data_stream; // 346. Moving Average from Data Stream
 pub mod e347_top_k_frequent_elements; // 347. Top K Frequent Elements
 pub mod e349_intersection_of_two_arrays; // 349. Intersection of Two Arrays
+pub mod e352_data_stream_as_disjoint_intervals; // 352. Data Stream as Disjoint Intervals
 pub mod e357_count_numbers_with_unique_digits; // 357. Count Numbers with Unique Digits
 pub mod e363_max_sum_of_rectangle_no_larger_than_k; // 363. Max Sum of Rectangle No Larger Than K
 pub mod e366_find_leaves_of_binary_tree; // 366. Find Leaves of Binary Tree
