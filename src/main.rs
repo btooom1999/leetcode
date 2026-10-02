@@ -24,5 +24,5 @@ mod e3801_4000;
 mod e4001_e4200;
 
 fn main() {
-    e801_1000::e839_similar_string_groups::main();
+    e801_1000::e924_minimize_malware_spread::main();
 }

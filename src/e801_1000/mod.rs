@@ -48,6 +48,7 @@ pub mod e912_sort_an_array; // 912. Sort an Array
 pub mod e915_partition_array_into_disjoint_intervals; // 915. Partition Array into Disjoint Intervals
 pub mod e918_maximum_sum_circular_subarray; // 918. Maximum Sum Circular Subarray
 pub mod e921_minimum_add_to_make_parentheses_valid; // 921. Minimum Add to Make Parentheses Valid
+pub mod e924_minimize_malware_spread; // 924. Minimize Malware Spread
 pub mod e926_flip_string_to_monotone_increasing; // 926. Flip String to Monotone Increasing
 pub mod e929_unique_email_addresses; // 929. Unique Email Addresses
 pub mod e930_binary_subarrays_with_sum; // 930. Binary Subarrays With Sum
