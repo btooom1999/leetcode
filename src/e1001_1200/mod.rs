@@ -62,6 +62,7 @@ pub mod e1147_longest_chunked_palindrome_decomposition; // 1147. Longest Chunked
 pub mod e1150_check_if_a_number_is_majority_element_in_a_sorted_array; // 1150. Check If a Number Is Majority Element in a Sorted Array
 pub mod e1152_analyze_user_website_visit_pattern; // 1152. Analyze User Website Visit Pattern
 pub mod e1155_number_of_dice_rolls_with_target_sum; // 1155. Number of Dice Rolls With Target Sum
+pub mod e1157_online_majority_element_in_subarray; // 1157. Online Majority Element In Subarray
 pub mod e1160_find_words_that_can_be_formed_by_characters; // 1160. Find Words That Can Be Formed by Characters
 pub mod e1161_maximum_level_sum_of_a_binary_tree; // 1161. Maximum Level Sum of a Binary Tree
 pub mod e1162_as_far_from_land_as_possible; // 1162. As Far from Land as Possible

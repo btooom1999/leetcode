@@ -1,44 +1,46 @@
-use std::collections::BTreeMap;
+struct Fenwick {
+    tree: Vec<i32>
+}
+
+impl Fenwick {
+    fn with_capacity(n: usize) -> Self {
+        Self { tree: vec![0; n] }
+    }
+
+    fn add(&mut self, mut i: usize, delta: i32) {
+        let n = self.tree.len();
+        while i <= n {
+            self.tree[i] += delta;
+            i += i & i.wrapping_neg();
+        }
+    }
+
+    fn prefix_sum(&self, mut i: usize) -> i32 {
+        let mut count = 0;
+        while i > 0 {
+            count += self.tree[i];
+            i -= i & i.wrapping_neg();
+        }
+
+        count
+    }
+}
 
 fn count_smaller(nums: Vec<i32>) -> Vec<i32> {
-    let mut btreemap = BTreeMap::<_, i32>::new();
-    for &num in &nums {
-        *btreemap.entry(num).or_default() += 1;
-    }
-
-    let data = btreemap.into_iter().collect::<Vec<_>>();
-    let n = data.len();
-    let mut tree = vec![0; n+1];
-    for i in 1..=n {
-        let mut k = i;
-        while k <= n {
-            tree[k] += data[i-1].1;
-            k += k & !(k-1);
-        }
-    }
-
-    let mut res = vec![];
-    for i in 1..=nums.len() {
-        let mut k = data.partition_point(|&(val, _)| val <= nums[i-1]);
-        let mut prev = k-1;
-        let mut count = 0;
-        while prev > 0 {
-            count += tree[prev];
-            prev -= prev & !(prev-1);
-        }
-
-        res.push(count);
-
-        while k <= n {
-            tree[k] -= 1;
-            k += k & !(k-1);
-        }
+    let offset = 10_001;
+    let n = 20_001;
+    let mut fenwick = Fenwick::with_capacity(n+1);
+    let mut res = vec![0; nums.len()];
+    for i in (0..nums.len()).rev() {
+        let pos = (nums[i]+offset) as usize;
+        res[i] = fenwick.prefix_sum(pos-1);
+        fenwick.add(pos, 1);
     }
 
     res
 }
 
 pub fn main() {
-    let nums = [0,2,1].to_vec();
+    let nums = [-1,-1].to_vec();
     println!("{:?}", count_smaller(nums));
 }
