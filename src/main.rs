@@ -24,5 +24,5 @@ mod e3801_4000;
 mod e4001_e4200;
 
 fn main() {
-    e201_400::e315_count_of_smaller_numbers_after_self::main();
+    e201_400::e327_count_of_range_sum::main();
 }
