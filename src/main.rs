@@ -25,5 +25,5 @@ mod e3801_4000;
 mod e4001_e4200;
 
 fn main() {
-    e2601_2800::e2736_maximum_sum_queries::main();
+    e1401_1600::e1505_minimum_possible_integer_after_at_most_k_adjacent_swaps_on_digits::main();
 }

@@ -36,6 +36,7 @@ pub mod e1496_path_crossing; // 1496. Path Crossing
 pub mod e1498_number_of_subsequences_that_satisfy_the_given_sum_condition; // 1498. Number of Subsequences That Satisfy the Given Sum Condition
 pub mod e1502_can_make_arithmetic_progression_from_sequence; // 1502. Can Make Arithmetic Progression From Sequence
 pub mod e1504_count_submatrices_with_all_ones; // 1504. Count Submatrices With All Ones
+pub mod e1505_minimum_possible_integer_after_at_most_k_adjacent_swaps_on_digits; // 1505. Minimum Possible Integer After at Most K Adjacent Swaps On Digits
 pub mod e1506_find_root_of_n_ary_tree; // 1506. Find Root of N-Ary Tree
 pub mod e1508_range_sum_of_sorted_subarray_sums; // 1508. Range Sum of Sorted Subarray Sums
 pub mod e1509_minimum_difference_between_largest_and_smallest_value_in_three_moves; // 1509. Minimum Difference Between Largest and Smallest Value in Three Moves
