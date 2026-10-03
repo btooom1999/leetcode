@@ -4,6 +4,7 @@ pub mod e1605_find_valid_matrix_given_row_and_column_sums; // 1605. Find Valid M
 pub mod e1608_special_array_with_x_elements_greater_than_or_equal_x; // 1608. Special Array With X Elements Greater Than or Equal X
 pub mod e1609_even_odd_tree; // 1609. Even Odd Tree
 pub mod e1614_maximum_nesting_depth_of_the_parentheses; // 1614. Maximum Nesting Depth of the Parentheses
+pub mod e1622_fancy_sequence; // 1622. Fancy Sequence
 pub mod e1624_largest_substring_between_two_equal_characters; // 1624. Largest Substring Between Two Equal Characters
 pub mod e1626_best_team_with_no_conflicts; // 1626. Best Team With No Conflicts
 pub mod e1631_path_with_minimum_effort; // 1631. Path With Minimum Effort
@@ -13,6 +14,7 @@ pub mod e1638_count_substrings_that_differ_by_one_character; // 1638. Count Subs
 pub mod e1642_furthest_building_you_can_reach; // 1642. Furthest Building You Can Reach
 pub mod e1644_lowest_common_ancestor_of_a_binary_tree_ii; // 1644. Lowest Common Ancestor of a Binary Tree II
 pub mod e1647_minimum_deletions_to_make_character_frequencies_unique; // 1647. Minimum Deletions to Make Character Frequencies Unique
+pub mod e1649_create_sorted_array_through_instructions; // 1649. Create Sorted Array through Instructions
 pub mod e1650_lowest_common_ancestor_of_a_binary_tree_iii; // 1650. Lowest Common Ancestor of a Binary Tree III
 pub mod e1652_defuse_the_bomb; // 1652. Defuse the Bomb
 pub mod e1653_minimum_deletions_to_make_string_balanced; // 1653. Minimum Deletions to Make String Balanced

@@ -44,7 +44,6 @@ fn min_integer(num: String, k: i32) -> String {
 
             if let Some(&j) = hashmap[num].last() {
                 let jump_j = query(&tree, j+1);
-                println!("{} {} {} {}", jump_j, jump_i, j, i);
                 if j-i-(jump_j-jump_i) <= k {
                     b = bytes[j];
                     k -= j-i-(jump_j-jump_i);

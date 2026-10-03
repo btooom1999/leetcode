@@ -25,5 +25,5 @@ mod e3801_4000;
 mod e4001_e4200;
 
 fn main() {
-    e1401_1600::e1505_minimum_possible_integer_after_at_most_k_adjacent_swaps_on_digits::main();
+    e1601_1800::e1649_create_sorted_array_through_instructions::main();
 }
