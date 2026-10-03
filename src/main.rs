@@ -1,5 +1,6 @@
 #![allow(dead_code)]
 #![allow(clippy::needless_range_loop)]
+#![allow(clippy::too_many_arguments)]
 
 mod e1_200;
 mod e201_400;
@@ -24,5 +25,5 @@ mod e3801_4000;
 mod e4001_e4200;
 
 fn main() {
-    e801_1000::e924_minimize_malware_spread::main();
+    e2601_2800::e2736_maximum_sum_queries::main();
 }
