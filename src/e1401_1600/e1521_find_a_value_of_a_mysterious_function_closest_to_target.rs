@@ -1,3 +1,11 @@
+fn query(sparse: &[Vec<i32>], start: usize, end: usize) -> i32 {
+    let len = end-start+1;
+    let k = len.ilog2() as usize;
+    let extra = len - 2usize.pow(k as u32);
+
+    sparse[start][k] & sparse[start+extra][k]
+}
+
 fn closest_to_target(arr: Vec<i32>, target: i32) -> i32 {
     let n = arr.len();
     let indexes = (0..n).collect::<Vec<_>>();
@@ -21,24 +29,15 @@ fn closest_to_target(arr: Vec<i32>, target: i32) -> i32 {
     for start in 0..n {
         let l = indexes.partition_point(|&end| {
             if end < start { return true; }
-            let len = end-start+1;
-            let k = len.ilog2() as usize;
-            let extra = len - 2usize.pow(k as u32);
-            (sparse[start][k] & sparse[start+extra][k]) - target >= res
+            query(&sparse, start, end) - target >= res
         });
 
         let r = indexes.partition_point(|&end| {
             if end < start { return true; }
-            let len = end-start+1;
-            let k = len.ilog2() as usize;
-            let extra = len - 2usize.pow(k as u32);
-            (sparse[start][k] & sparse[start+extra][k]) - target > -res
+            query(&sparse, start, end) - target > -res
         });
 
-        let len = l.min(n-1)-start+1;
-        let k = len.ilog2() as usize;
-        let extra = len - 2usize.pow(k as u32);
-        let mut value = sparse[start][k] & sparse[start+extra][k];
+        let mut value = query(&sparse, start, l.min(n-1));
         res = res.min((value-target).abs());
         for i in l..r {
             value &= arr[i];
