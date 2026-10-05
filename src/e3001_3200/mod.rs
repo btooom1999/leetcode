@@ -26,6 +26,7 @@ pub mod e3151_special_array_i; // 3151. Special Array I
 pub mod e3153_sum_of_digit_differences_of_all_pairs; // 3153. Sum of Digit Differences of All Pairs
 pub mod e3158_find_the_xor_of_numbers_which_appear_twice; // 3158. Find the XOR of Numbers Which Appear Twice
 pub mod e3169_count_days_without_meetings; // 3169. Count Days Without Meetings
+pub mod e3171_find_subarray_with_bitwise_or_closest_to_k; // 3171. Find Subarray With Bitwise OR Closest to K
 pub mod e3174_clear_digits; // 3174. Clear Digits
 pub mod e3176_find_the_maximum_length_of_a_good_subsequence_i; // 3176. Find the Maximum Length of a Good Subsequence I
 pub mod e3190_find_minimum_operations_to_make_all_elements_divisible_by_three; // 3190. Find Minimum Operations to Make All Elements Divisible by Three
