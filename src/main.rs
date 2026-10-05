@@ -25,5 +25,5 @@ mod e3801_4000;
 mod e4001_e4200;
 
 fn main() {
-    e1401_1600::e1521_find_a_value_of_a_mysterious_function_closest_to_target::main();
+    e2601_2800::e2736_maximum_sum_queries::main();
 }
