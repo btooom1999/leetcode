@@ -42,6 +42,7 @@ pub mod e1508_range_sum_of_sorted_subarray_sums; // 1508. Range Sum of Sorted Su
 pub mod e1509_minimum_difference_between_largest_and_smallest_value_in_three_moves; // 1509. Minimum Difference Between Largest and Smallest Value in Three Moves
 pub mod e1512_number_of_good_pairs; // 1512. Number of Good Pairs
 pub mod e1513_number_of_substrings_with_only_1s; // 1513. Number of Substrings With Only 1s
+pub mod e1521_find_a_value_of_a_mysterious_function_closest_to_target; // 1521. Find a Value of a Mysterious Function Closest to Target
 pub mod e1522_diameter_of_n_ary_tree; // 1522. Diameter of N-Ary Tree
 pub mod e1524_number_of_sub_arrays_with_odd_sum; // 1524. Number of Sub-arrays With Odd Sum
 pub mod e1525_number_of_good_ways_to_split_a_string; // 1525. Number of Good Ways to Split a String
