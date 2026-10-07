@@ -41,7 +41,6 @@ fn wiggle_sort(nums: &mut [i32]) {
             }
         }
 
-
         x += 2;
     }
 }

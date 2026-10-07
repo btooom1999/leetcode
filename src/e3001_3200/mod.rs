@@ -21,6 +21,7 @@ pub mod e3097_shortest_subarray_with_or_at_least_k_ii; // 3097. Shortest Subarra
 pub mod e3105_longest_strictly_increasing_or_strictly_decreasing_subarray; // 3105. Longest Strictly Increasing or Strictly Decreasing Subarray
 pub mod e3110_score_of_a_string; // 3110. Score of a String
 pub mod e3113_find_the_number_of_subarrays_where_boundary_elements_are_maximum; // 3113. Find the Number of Subarrays Where Boundary Elements Are Maximum
+pub mod e3117_minimum_sum_of_values_by_dividing_array; // 3117. Minimum Sum of Values by Dividing Array
 pub mod e3133_minimum_array_end; // 3133. Minimum Array End
 pub mod e3151_special_array_i; // 3151. Special Array I
 pub mod e3153_sum_of_digit_differences_of_all_pairs; // 3153. Sum of Digit Differences of All Pairs
