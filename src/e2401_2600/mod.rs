@@ -54,6 +54,7 @@ pub mod e2535_difference_between_element_sum_and_digit_sum_of_an_array; // 2535.
 pub mod e2542_maximum_subsequence_score; // 2542. Maximum Subsequence Score
 pub mod e2544_alternating_digit_sum; // 2544. Alternating Digit Sum
 pub mod e2546_apply_bitwise_operations_to_make_strings_equal; // 2546. Apply Bitwise Operations to Make Strings Equal
+pub mod e2547_minimum_cost_to_split_an_array; // 2547. Minimum Cost to Split an Array
 pub mod e2553_separate_the_digits_in_an_array; // 2553. Separate the Digits in an Array
 pub mod e2558_take_gifts_from_the_richest_pile; // 2558. Take Gifts From the Richest Pile
 pub mod e2559_count_vowel_strings_in_ranges; // 2559. Count Vowel Strings in Ranges

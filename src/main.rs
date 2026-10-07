@@ -25,5 +25,5 @@ mod e3801_4000;
 mod e4001_e4200;
 
 fn main() {
-    e3001_3200::e3117_minimum_sum_of_values_by_dividing_array::main();
+    e2401_2600::e2547_minimum_cost_to_split_an_array::main();
 }
