@@ -7,6 +7,7 @@ pub mod e405_convert_a_number_to_hexadecimal; // 405. Convert a Number to Hexade
 pub mod e407_trapping_rain_water_ii; // 407. Trapping Rain Water II
 pub mod e408_valid_word_abbreviation; // 408. Valid Word Abbreviation
 pub mod e409_longest_palindrome; // 409. Longest Palindrome
+pub mod e410_split_array_largest_sum; // 410. Split Array Largest Sum
 pub mod e412_fizz_buzz; // 412. Fizz Buzz
 pub mod e413_arithmetic_slices; // 413. Arithmetic Slices
 pub mod e414_third_maximum_number; // 414. Third Maximum Number
