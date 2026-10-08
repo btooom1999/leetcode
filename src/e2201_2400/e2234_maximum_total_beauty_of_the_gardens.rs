@@ -1,5 +1,4 @@
-fn maximum_beauty(flowers: Vec<i32>, mut new_flowers: i64, target: i32, full: i32, partial: i32) -> i64 {
-    let mut flowers = flowers.into_iter().map(|v| (v as i64, v as i64)).collect::<Vec<_>>();
+fn maximum_beauty(mut flowers: Vec<i32>, mut new_flowers: i64, target: i32, full: i32, partial: i32) -> i64 {
     flowers.sort();
 
     let target = target as i64;
@@ -8,11 +7,10 @@ fn maximum_beauty(flowers: Vec<i32>, mut new_flowers: i64, target: i32, full: i3
     let n = flowers.len();
     let mut r = n;
     for i in (0..n).rev() {
-        if flowers[i].0 >= target {
+        if flowers[i] as i64 >= target {
             r -= 1;
-        } else if new_flowers >= target - flowers[i].0 {
-            new_flowers -= target - flowers[i].0;
-            flowers[i].1 = target;
+        } else if new_flowers >= target - flowers[i] as i64 {
+            new_flowers -= target - flowers[i] as i64;
             r -= 1;
         } else {
             break;
@@ -21,23 +19,20 @@ fn maximum_beauty(flowers: Vec<i32>, mut new_flowers: i64, target: i32, full: i3
 
     let mut res = (n-r) as i64 * full;
     if r == 0 {
-        new_flowers += target - flowers[0].0;
-        flowers[0].1 = flowers[0].0;
+        new_flowers += target - flowers[0] as i64;
         r += 1;
     }
 
-    let mut l = 0;
-    let mut cur = flowers[0].1;
+    let mut cur = flowers[0] as i64;
     let mut count = 0;
     while cur < target {
         while r < n && new_flowers < count {
-            if flowers[r].0 >= target { break; }
+            if flowers[r] as i64 >= target { break; }
 
-            new_flowers += target - flowers[r].0;
-            if flowers[r].0 < cur {
-                new_flowers -= cur - flowers[r].0;
+            new_flowers += target - flowers[r] as i64;
+            if cur > flowers[r] as i64 {
+                new_flowers -= cur - flowers[r] as i64;
             }
-            flowers[r].1 = flowers[r].0;
             r += 1;
         }
 
@@ -46,9 +41,8 @@ fn maximum_beauty(flowers: Vec<i32>, mut new_flowers: i64, target: i32, full: i3
         }
 
         new_flowers -= count;
-        while l < n && cur >= flowers[l].1 {
+        while count < r as i64 && cur >= flowers[count as usize] as i64 {
             count += 1;
-            l += 1;
         }
         res = res.max(cur * partial + (n-r) as i64 * full);
         cur += 1;
