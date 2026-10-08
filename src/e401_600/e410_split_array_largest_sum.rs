@@ -13,19 +13,13 @@ fn split_array(nums: Vec<i32>, k: i32) -> i32 {
             let mut sum = 0;
             for j in i..n-k {
                 sum += nums[j];
-                let max = sum.max(dp[j+1][k-1]);
-                dp[i][k] = dp[i][k].min(max);
+                dp[i][k] = dp[i][k].min(sum.max(dp[j+1][k-1]));
             }
         }
     }
 
     dp[0][k-1]
 }
-
-// 1,2,3,4,5
-// k = 1 => [1,2,3,4,5]
-// k = 2 => [9,9,7,5,_]
-// k = 3 => [6,5,5,_,_]
 
 pub fn main() {
     let nums = [1,2,3,4,5].to_vec();

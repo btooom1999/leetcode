@@ -11,6 +11,7 @@ pub mod e2226_maximum_candies_allocated_to_k_children; // 2226. Maximum Candies 
 pub mod e2227_encrypt_and_decrypt_strings; // 2227. Encrypt and Decrypt Strings
 pub mod e2232_minimize_result_by_adding_parentheses_to_expression; // 2232. Minimize Result by Adding Parentheses to Expression
 pub mod e2233_maximum_product_after_k_increments; // 2233. Maximum Product After K Increments
+pub mod e2234_maximum_total_beauty_of_the_gardens; // 2234. Maximum Total Beauty of the Gardens
 pub mod e2239_find_closest_number_to_zero; // 2239. Find Closest Number to Zero
 pub mod e2242_maximum_score_of_a_node_sequence; // 2242. Maximum Score of a Node Sequence
 pub mod e2243_calculate_digit_sum_of_a_string; // 2243. Calculate Digit Sum of a String
