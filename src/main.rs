@@ -25,5 +25,5 @@ mod e3801_4000;
 mod e4001_e4200;
 
 fn main() {
-    e2201_2400::e2234_maximum_total_beauty_of_the_gardens::main();
+    e3401_3600::e3524_find_x_value_array_i::main();
 }
