@@ -25,5 +25,5 @@ mod e3801_4000;
 mod e4001_e4200;
 
 fn main() {
-    e3401_3600::e3524_find_x_value_array_i::main();
+    e2801_3000::e2913_subarrays_distinct_element_sum_of_squares_i::main();
 }
