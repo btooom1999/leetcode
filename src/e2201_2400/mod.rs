@@ -37,6 +37,7 @@ pub mod e2319_check_if_matrix_is_x_matrix; // 2319. Check if Matrix Is X-Matrix
 pub mod e2328_number_of_increasing_paths_in_a_grid; // 2328. Number of Increasing Paths in a Grid
 pub mod e2330_valid_palindrome_iv; // 2330. Valid Palindrome IV
 pub mod e2331_evaluate_boolean_binary_tree; // 2331. Evaluate Boolean Binary Tree
+pub mod e2341_maximum_number_of_pairs_in_array; // 2341. Maximum Number of Pairs in Array
 pub mod e2347_best_poker_hand; // 2347. Best Poker Hand
 pub mod e2348_number_of_zero_filled_subarrays; // 2348. Number of Zero-Filled Subarrays
 pub mod e2351_first_letter_to_appear_twice; // 2351. First Letter to Appear Twice
