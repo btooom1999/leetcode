@@ -23,6 +23,7 @@ pub mod e2274_maximum_consecutive_floors_without_special_floors; // 2274. Maximu
 pub mod e2275_largest_combination_with_bitwise_and_greater_than_zero; // 2275. Largest Combination With Bitwise AND Greater Than Zero
 pub mod e2278_percentage_of_letter_in_string; // 2278. Percentage of Letter in String
 pub mod e2283_check_if_number_has_equal_digit_count_and_digit_value; // 2283. Check if Number Has Equal Digit Count and Digit Value
+pub mod e2284_sender_with_largest_word_count; // 2284. Sender With Largest Word Count
 pub mod e2285_maximum_total_importance_of_roads; // 2285. Maximum Total Importance of Roads
 pub mod e2289_steps_to_make_array_non_decreasing; // 2289. Steps to Make Array Non-decreasing
 pub mod e2293_min_max_game; // 2293. Min Max Game
