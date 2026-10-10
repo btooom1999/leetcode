@@ -25,5 +25,5 @@ mod e3801_4000;
 mod e4001_e4200;
 
 fn main() {
-    e2801_3000::e2916_subarrays_distinct_element_sum_of_squares_ii::main();
+    e1001_1200::e1157_online_majority_element_in_subarray::main();
 }
