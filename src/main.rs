@@ -25,5 +25,5 @@ mod e3801_4000;
 mod e4001_e4200;
 
 fn main() {
-    e1601_1800::e1622_fancy_sequence::main();
+    e801_1000::e939_minimum_area_rectangle::main();
 }

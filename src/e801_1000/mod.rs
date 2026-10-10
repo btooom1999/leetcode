@@ -56,6 +56,7 @@ pub mod e931_minimum_falling_path_sum; // 931. Minimum Falling Path Sum
 pub mod e934_shortest_bridge; // 934. Shortest Bridge
 pub mod e935_knight_dialer; // 935. Knight Dialer
 pub mod e938_range_sum_of_bst; // 938. Range Sum of BST
+pub mod e939_minimum_area_rectangle; // 939. Minimum Area Rectangle
 pub mod e940_distinct_subsequences_ii; // 940. Distinct Subsequences II
 pub mod e945_minimum_increment_to_make_array_unique; // 945. Minimum Increment to Make Array Unique
 pub mod e946_validate_stack_sequences; // 946. Validate Stack Sequences
