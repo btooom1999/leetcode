@@ -43,6 +43,7 @@ pub mod e685_redundant_connection_ii; // 685. Redundant Connection II
 pub mod e686_repeated_string_match; // 686. Repeated String Match
 pub mod e687_longest_univalue_path; // 687. Longest Univalue Path
 pub mod e688_knight_probability_in_chessboard; // 688. Knight Probability in Chessboard
+pub mod e692_top_k_frequent_words; // 692. Top K Frequent Words
 pub mod e693_binary_number_with_alternating_bits; // 693. Binary Number with Alternating Bits
 pub mod e695_max_area_of_island; // 695. Max Area of Island
 pub mod e697_degree_of_an_array; // 697. Degree of an Array
