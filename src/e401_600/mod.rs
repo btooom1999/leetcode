@@ -97,3 +97,4 @@ pub mod e583_delete_operation_for_two_strings; // 583. Delete Operation for Two 
 pub mod e589_n_ary_tree_preorder_traversal; // 589. N-ary Tree Preorder Traversal
 pub mod e590_n_ary_tree_postorder_traversal; // 590. N-ary Tree Postorder Traversal
 pub mod e592_fraction_addition_and_subtraction; // 592. Fraction Addition and Subtraction
+pub mod e593_valid_square; // 593. Valid Square

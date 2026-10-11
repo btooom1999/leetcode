@@ -25,5 +25,5 @@ mod e3801_4000;
 mod e4001_e4200;
 
 fn main() {
-    e401_600::e478_generate_random_point_in_a_circle::main();
+    e401_600::e593_valid_square::main();
 }
