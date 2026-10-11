@@ -46,6 +46,7 @@ pub mod e473_matchsticks_to_square; // 473. Matchsticks to Square
 pub mod e474_ones_and_zeroes; // 474. Ones and Zeroes
 pub mod e476_number_complement; // 476. Number Complement
 pub mod e477_total_hamming_distance; // 477. Total Hamming Distance
+pub mod e478_generate_random_point_in_a_circle; // 478. Generate Random Point in a Circle
 pub mod e484_find_permutation; // 484. Find Permutation
 pub mod e485_max_consecutive_ones; // 485. Max Consecutive Ones
 pub mod e486_predict_the_winner; // 486. Predict the Winner
