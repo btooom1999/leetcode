@@ -9,6 +9,7 @@ pub mod e820_short_encoding_of_words; // 820. Short Encoding of Words
 pub mod e821_shortest_distance_to_a_character; // 821. Shortest Distance to a Character
 pub mod e827_making_a_large_island; // 827. Making A Large Island
 pub mod e832_flipping_an_image; // 832. Flipping an Image
+pub mod e836_rectangle_overlap; // 836. Rectangle Overlap
 pub mod e837_new_21_game; // 837. New 21 Game
 pub mod e838_push_dominoes; // 838. Push Dominoes
 pub mod e839_similar_string_groups; // 839. Similar String Groups
