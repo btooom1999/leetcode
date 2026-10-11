@@ -3,6 +3,7 @@
 pub mod e802_find_eventual_safe_states; // 802. Find Eventual Safe States
 pub mod e803_bricks_falling_when_hit; // 803. Bricks Falling When Hit
 pub mod e807_max_increase_to_keep_city_skyline; // 807. Max Increase to Keep City Skyline
+pub mod e812_largest_triangle_area; // 812. Largest Triangle Area
 pub mod e813_largest_sum_of_averages; // 813. Largest Sum of Averages
 pub mod e820_short_encoding_of_words; // 820. Short Encoding of Words
 pub mod e821_shortest_distance_to_a_character; // 821. Shortest Distance to a Character

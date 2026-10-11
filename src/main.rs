@@ -25,5 +25,5 @@ mod e3801_4000;
 mod e4001_e4200;
 
 fn main() {
-    e401_600::e593_valid_square::main();
+    e801_1000::e812_largest_triangle_area::main();
 }
