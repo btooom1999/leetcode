@@ -25,5 +25,5 @@ mod e3801_4000;
 mod e4001_e4200;
 
 fn main() {
-    e2201_2400::e2284_sender_with_largest_word_count::main();
+    e201_400::e223_rectangle_area::main();
 }

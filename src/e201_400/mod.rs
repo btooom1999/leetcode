@@ -19,6 +19,7 @@ pub mod e217_contains_duplicate; // 217. Contains Duplicate
 pub mod e219_contains_duplicate_ii; // 219. Contains Duplicate II
 pub mod e221_maximal_square; // 221. Maximal Square
 pub mod e222_count_complete_tree_nodes; // 222. Count Complete Tree Nodes
+pub mod e223_rectangle_area; // 223. Rectangle Area
 pub mod e224_basic_calculator; // 224. Basic Calculator
 pub mod e225_implement_stack_using_queues; // 225. Implement Stack using Queues
 pub mod e226_invert_binary_tree; // 226. Invert Binary Tree
