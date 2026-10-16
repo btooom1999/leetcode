@@ -25,5 +25,5 @@ mod e3801_4000;
 mod e4001_e4200;
 
 fn main() {
-    e3401_3600::e3430_maximum_and_minimum_sums_of_at_most_size_k_subarrays::main();
+    e1801_2000::e1944_number_of_visible_people_in_a_queue::main();
 }

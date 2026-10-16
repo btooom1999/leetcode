@@ -40,6 +40,7 @@ pub mod e1929_concatenation_of_array; // 1929. Concatenation of Array
 pub mod e1930_unique_length_3_palindromic_subsequences; // 1930. Unique Length-3 Palindromic Subsequences
 pub mod e1937_maximum_number_of_points_with_cost; // 1937. Maximum Number of Points with Cost
 pub mod e1942_the_number_of_the_smallest_unoccupied_chair; // 1942. The Number of the Smallest Unoccupied Chair
+pub mod e1944_number_of_visible_people_in_a_queue; // 1944. Number of Visible People in a Queue
 pub mod e1945_sum_of_digits_of_string_after_convert; // 1945. Sum of Digits of String After Convert
 pub mod e1946_largest_number_after_mutating_substring; // 1946. Largest Number After Mutating Substring
 pub mod e1947_maximum_compatibility_score_sum; // 1947. Maximum Compatibility Score Sum
