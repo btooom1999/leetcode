@@ -28,5 +28,6 @@ pub mod e3327_check_if_dfs_strings_are_palindromes; // 3327. Check if DFS String
 pub mod e3340_check_balanced_string; // 3340. Check Balanced String
 pub mod e3364_minimum_positive_sum_subarray; // 3364. Minimum Positive Sum Subarray
 pub mod e3370_smallest_number_with_all_set_bits; // 3370. Smallest Number With All Set Bits
+pub mod e3389_minimum_operations_to_make_character_frequencies_equal; // 3389. Minimum Operations to Make Character Frequencies Equal
 pub mod e3394_check_if_grid_can_be_cut_into_sections; // 3394. Check if Grid can be Cut into Sections
 pub mod e3396_minimum_number_of_operations_to_make_elements_in_array_distinct; // 3396. Minimum Number of Operations to Make Elements in Array Distinct
