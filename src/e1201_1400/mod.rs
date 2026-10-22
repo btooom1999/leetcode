@@ -13,6 +13,7 @@ pub mod e1228_missing_number_in_arithmetic_progression; // 1228. Missing Number 
 pub mod e1233_remove_sub_folders_from_the_filesystem; // 1233. Remove Sub-Folders from the Filesystem
 pub mod e1238_circular_permutation_in_binary_representation; // 1238. Circular Permutation in Binary Representation
 pub mod e1239_maximum_length_of_a_concatenated_string_with_unique_characters; // 1239. Maximum Length of a Concatenated String with Unique Characters
+pub mod e1247_minimum_swaps_to_make_string_equal; // 1247. Minimum Swaps to Make Strings Equal
 pub mod e1248_count_number_of_nice_subarrays; // 1248. Count Number of Nice Subarrays
 pub mod e1249_minimum_remove_to_make_valid_parentheses; // 1249. Minimum Remove to Make Valid Parentheses
 pub mod e1253_reconstruct_a_2_row_binary_matrix; // 1253. Reconstruct a 2-Row Binary Matrix
