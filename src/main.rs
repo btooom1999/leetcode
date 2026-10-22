@@ -25,5 +25,5 @@ mod e3801_4000;
 mod e4001_e4200;
 
 fn main() {
-    e2001_2200::e2186_minimum_number_of_steps_to_make_two_strings_anagram_ii::main();
+    e1201_1400::e1347_minimum_number_of_steps_to_make_two_strings_anagram::main();
 }
