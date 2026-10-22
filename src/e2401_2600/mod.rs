@@ -50,6 +50,7 @@ pub mod e2525_categorize_box_according_to_criteria; // 2525. Categorize Box Acco
 pub mod e2527_find_xor_beauty_of_array; // 2527. Find Xor-Beauty of Array
 pub mod e2529_maximum_count_of_positive_integer_and_negative_integer; // 2529. Maximum Count of Positive Integer and Negative Integer
 pub mod e2530_maximal_score_after_applying_k_operations; // 2530. Maximal Score After Applying K Operations
+pub mod e2531_make_number_of_distinct_characters_equal; // 2531. Make Number of Distinct Characters Equal
 pub mod e2535_difference_between_element_sum_and_digit_sum_of_an_array; // 2535. Difference Between Element Sum and Digit Sum of an Array
 pub mod e2542_maximum_subsequence_score; // 2542. Maximum Subsequence Score
 pub mod e2544_alternating_digit_sum; // 2544. Alternating Digit Sum
