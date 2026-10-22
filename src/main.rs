@@ -25,5 +25,5 @@ mod e3801_4000;
 mod e4001_e4200;
 
 fn main() {
-    e3201_3400::e3389_minimum_operations_to_make_character_frequencies_equal::main();
+    e1601_1800::e1657_determine_if_two_strings_are_close::main();
 }
