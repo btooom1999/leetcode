@@ -30,6 +30,7 @@ pub mod e1044_longest_duplicate_substring; // 1044. Longest Duplicate Substring
 pub mod e1046_last_stone_weight; // 1046. Last Stone Weight
 pub mod e1047_remove_all_adjacent_duplicates_in_string; // 1047. Remove All Adjacent Duplicates In String
 pub mod e1048_longest_string_chain; // 1048. Longest String Chain
+pub mod e1049_last_stone_weight_ii; // 1049. Last Stone Weight II
 pub mod e1051_height_checker; // 1051. Height Checker
 pub mod e1052_grumpy_bookstore_owner; // 1052. Grumpy Bookstore Owner
 pub mod e1056_confusing_number; // 1056. Confusing Number

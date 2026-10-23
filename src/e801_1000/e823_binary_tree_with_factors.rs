@@ -1,4 +1,4 @@
-use std::collections::{HashMap, HashSet};
+use std::collections::HashMap;
 
 const MOD: i32 = 1_000_000_007;
 
@@ -6,17 +6,15 @@ fn num_factored_binary_trees(mut arr: Vec<i32>) -> i32 {
     arr.sort_unstable();
 
     let n = arr.len();
-    let mut hashset = HashSet::new();
     let mut hashmap = HashMap::new();
     for i in 0..n {
-        hashset.insert(arr[i]);
         hashmap.insert(arr[i], 1);
     }
 
     for i in 0..n {
         for j in 0..i {
-            if arr[i] % arr[j] == 0 && hashmap.contains_key(&(arr[i]/arr[j])) {
-                let (a, b) = (arr[j], arr[i]/arr[j]);
+            let (a, b) = (arr[j], arr[i]/arr[j]);
+            if arr[i] % arr[j] == 0 && hashmap.contains_key(&b) {
                 let count = (hashmap[&a] as i64 * hashmap[&b] as i64 % MOD as i64) as i32;
                 hashmap.entry(arr[i]).and_modify(|v| *v = (*v + count) % MOD);
             }

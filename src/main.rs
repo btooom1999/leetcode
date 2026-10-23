@@ -25,5 +25,5 @@ mod e3801_4000;
 mod e4001_e4200;
 
 fn main() {
-    e801_1000::e823_binary_tree_with_factors::main();
+    e1001_1200::e1049_last_stone_weight_ii::main();
 }
