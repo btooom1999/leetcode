@@ -7,6 +7,7 @@ pub mod e812_largest_triangle_area; // 812. Largest Triangle Area
 pub mod e813_largest_sum_of_averages; // 813. Largest Sum of Averages
 pub mod e820_short_encoding_of_words; // 820. Short Encoding of Words
 pub mod e821_shortest_distance_to_a_character; // 821. Shortest Distance to a Character
+pub mod e823_binary_tree_with_factors; // 823. Binary Trees With Factors
 pub mod e827_making_a_large_island; // 827. Making A Large Island
 pub mod e832_flipping_an_image; // 832. Flipping an Image
 pub mod e836_rectangle_overlap; // 836. Rectangle Overlap
