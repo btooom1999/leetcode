@@ -25,5 +25,5 @@ mod e3801_4000;
 mod e4001_e4200;
 
 fn main() {
-    e2401_2600::e2531_make_number_of_distinct_characters_equal::main();
+    e1_200::e123_best_time_buy_and_sell_stock_iii::main();
 }
