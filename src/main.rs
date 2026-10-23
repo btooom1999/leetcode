@@ -25,5 +25,5 @@ mod e3801_4000;
 mod e4001_e4200;
 
 fn main() {
-    e1_200::e123_best_time_buy_and_sell_stock_iii::main();
+    e201_400::e376_wiggle_subsequence::main();
 }

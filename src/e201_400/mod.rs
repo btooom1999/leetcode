@@ -111,6 +111,7 @@ pub mod e371_sum_of_two_integers; // 371. Sum of Two Integers
 pub mod e373_find_k_pairs_with_smallest_sums; // 373. Find K Pairs with Smallest Sums
 pub mod e374_guess_number_higher_or_lower; // 374. Guess Number Higher or Lower
 pub mod e375_guess_number_higher_or_lower_ii; // 375. Guess Number Higher or Lower II
+pub mod e376_wiggle_subsequence; // 376. Wiggle Subsequence
 pub mod e377_combination_sum_iv; // 377. Combination Sum IV
 pub mod e378_kth_smallest_element_in_a_sorted_matrix; // 378. Kth Smallest Element in a Sorted Matrix
 pub mod e383_ransom_note; // 383. Ransom Note
