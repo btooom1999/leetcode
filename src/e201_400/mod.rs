@@ -12,6 +12,7 @@ pub mod e209_minimum_size_subarray_sum; // 209. Minimum Size Subarray Sum
 pub mod e210_course_schedule_ii; // 210. Course Schedule II
 pub mod e211_design_add_and_search_words_data_structure; // 211. Design Add and Search Words Data Structure
 pub mod e212_word_search_ii; // 212. Word Search II
+pub mod e213_house_robber_ii; // 213. House Robber II
 pub mod e214_shortest_palindrome; // 214. Shortest Palindrome
 pub mod e215_kth_largest_element_in_an_array; // 215. Kth Largest Element in an Array
 pub mod e216_combination_sum_iii; // 216. Combination Sum III
