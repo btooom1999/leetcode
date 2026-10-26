@@ -3,6 +3,7 @@
 pub mod e1_two_sum; // 1. Two Sum
 pub mod e2_add_two_numbers; // 2. Add Two Numbers
 pub mod e3_longest_substring_without_repeating_characters; // 3. Longest Substring Without Repeating Characters
+pub mod e4_median_of_two_sorted_arrays; // 4. Median of Two Sorted Arrays
 pub mod e5_longest_palindromic_substring; // 5. Longest Palindromic Substring
 pub mod e6_zigzag_conversion; // 6. Zigzag Conversion
 pub mod e7_reverse_integer; // 7. Reverse Integer

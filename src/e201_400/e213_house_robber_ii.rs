@@ -1,10 +1,10 @@
 fn rob(nums: Vec<i32>) -> i32 {
     let n = nums.len();
-    let mut dp = vec![(0,0,0,0); n+3];
-    dp[0] = (nums[0], 0, 0, 0);
+    let mut dp = vec![(0,0,0); n];
+    dp[0] = (nums[0], 0, 0);
     let mut res = nums[0];
     if n>1 {
-        dp[1] = (0, 0, nums[1], 1);
+        dp[1] = (0, 0, nums[1]);
         res = res.max(nums[1]);
     }
 
@@ -19,7 +19,6 @@ fn rob(nums: Vec<i32>) -> i32 {
 
             if dp[i-2].2 + nums[i] > dp[i].2 {
                 dp[i].2 = dp[i-2].2;
-                dp[i].3 = dp[i-2].3;
                 dp[i].2 += nums[i];
             }
         }
@@ -34,7 +33,6 @@ fn rob(nums: Vec<i32>) -> i32 {
 
             if dp[i-3].2 + nums[i] > dp[i].2 {
                 dp[i].2 = dp[i-3].2;
-                dp[i].3 = dp[i-3].3;
                 dp[i].2 += nums[i];
             }
         }

@@ -25,5 +25,5 @@ mod e3801_4000;
 mod e4001_e4200;
 
 fn main() {
-    e201_400::e213_house_robber_ii::main();
+    e1_200::e4_median_of_two_sorted_arrays::main();
 }
