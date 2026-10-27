@@ -56,6 +56,7 @@ pub mod e926_flip_string_to_monotone_increasing; // 926. Flip String to Monotone
 pub mod e929_unique_email_addresses; // 929. Unique Email Addresses
 pub mod e930_binary_subarrays_with_sum; // 930. Binary Subarrays With Sum
 pub mod e931_minimum_falling_path_sum; // 931. Minimum Falling Path Sum
+pub mod e932_beautiful_array; // 932. Beautiful Array
 pub mod e934_shortest_bridge; // 934. Shortest Bridge
 pub mod e935_knight_dialer; // 935. Knight Dialer
 pub mod e938_range_sum_of_bst; // 938. Range Sum of BST

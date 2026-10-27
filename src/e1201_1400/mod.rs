@@ -56,6 +56,7 @@ pub mod e1376_time_needed_to_inform_all_employees; // 1376. Time Needed to Infor
 pub mod e1379_find_a_corresponding_node_of_a_binary_tree_in_a_clone_of_that_tree; // 1379. Find a Corresponding Node of a Binary Tree in a Clone of That Tree
 pub mod e1380_lucky_numbers_in_a_matrix; // 1380. Lucky Numbers in a Matrix
 pub mod e1381_design_a_stack_with_increment_operation; // 1381. Design a Stack With Increment Operation
+pub mod e1382_balance_a_binary_search_tree; // 1382. Balance a Binary Search Tree
 pub mod e1386_cinema_seat_allocation; // 1386. Cinema Seat Allocation
 pub mod e1387_sort_integers_by_the_power_value; // 1387. Sort Integers by The Power Value
 pub mod e1391_check_if_there_is_a_valid_path_in_a_grid; // 1391. Check if There is a Valid Path in a Grid
