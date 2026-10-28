@@ -25,5 +25,5 @@ mod e3801_4000;
 mod e4001_e4200;
 
 fn main() {
-    e3401_3600::e3537_fill_a_special_grid::main();
+    e2001_2200::e2080_range_frequency_queries::main();
 }

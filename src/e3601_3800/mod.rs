@@ -6,6 +6,7 @@ pub mod e3613_minimize_maximum_component_cost; // 3613. Minimize Maximum Compone
 pub mod e3619_count_islands_with_total_value_divisible_by_k; // 3619. Count Islands With Total Value Divisible by K
 pub mod e3638_maximum_balanced_shipments; // 3638. Maximum Balanced Shipments
 pub mod e3643_flip_square_submatrix_vertically; // 3643. Flip Square Submatrix Vertically
+pub mod e3653_xor_after_range_multiplication_queries_i; // 3653. XOR After Range Multiplication Queries I
 pub mod e3660_jump_game_ix; // 3660. Jump Game IX
 pub mod e3670_maximum_product_of_two_integers_with_no_common_bits; // 3670. Maximum Product of Two Integers With No Common Bits
 pub mod e3676_count_bowl_subarrays; // 3676. Count Bowl Subarrays
