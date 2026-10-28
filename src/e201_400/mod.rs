@@ -108,6 +108,7 @@ pub mod e366_find_leaves_of_binary_tree; // 366. Find Leaves of Binary Tree
 pub mod e367_valid_perfect_square; // 367. Valid Perfect Square
 pub mod e368_largest_divisible_subset; // 368. Largest Divisible Subset
 pub mod e369_plus_one_linked_list; // 369. Plus One Linked List
+pub mod e370_range_addition; // 370. Range Addition
 pub mod e371_sum_of_two_integers; // 371. Sum of Two Integers
 pub mod e372_super_pow; // 372. Super Pow
 pub mod e373_find_k_pairs_with_smallest_sums; // 373. Find K Pairs with Smallest Sums
