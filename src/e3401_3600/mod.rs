@@ -9,6 +9,7 @@ pub mod e3442_maximum_difference_between_even_and_odd_frequency_i; // 3442. Maxi
 pub mod e3446_sort_matrix_by_diagonals; // 3446. Sort Matrix by Diagonals
 pub mod e3477_fruits_into_baskets_ii; // 3477. Fruits Into Baskets II
 pub mod e3487_maximum_unique_subarray_sum_after_deletion; // 3487. Maximum Unique Subarray Sum After Deletion
+pub mod e3489_zero_array_transformation_iv; // 3489. Zero Array Transformation IV
 pub mod e3546_equal_sum_grid_partition_i; // 3546. Equal Sum Grid Partition I
 pub mod e3548_equal_sum_grid_partition_ii; // 3548. Equal Sum Grid Partition II
 pub mod e3556_sum_of_largest_prime_substrings; // 3556. Sum of Largest Prime Substrings
