@@ -1,52 +1,56 @@
 #[derive(Debug)]
 struct NumArray {
-    tree: Vec<i32>,
     nums: Vec<i32>,
+    blocks: Vec<i32>,
+    block_size: usize,
 }
 
 impl NumArray {
     fn new(nums: Vec<i32>) -> Self {
         let n = nums.len();
-        let mut tree = vec![0; n+1];
-        for i in 1..=n {
-            let mut idx = i;
-            while idx <= n {
-                tree[idx] += nums[i-1];
-                idx += idx & !(idx-1);
-            }
+        let block_size = (n as f64).sqrt().ceil() as usize;
+        let mut blocks = vec![0; (n+block_size-1)/block_size];
+
+        for i in 0..n {
+            blocks[i/block_size] += nums[i];
         }
 
-        Self { tree, nums }
+        Self { nums, blocks, block_size }
     }
 
     fn update(&mut self, index: i32, val: i32) {
-        let mut index = (index+1) as usize;
-        let delta = val - self.nums[index-1];
-        self.nums[index-1] = val;
+        let index = index as usize;
+        let delta = val - self.nums[index];
+        self.nums[index] = val;
 
-        while index < self.tree.len() {
-            self.tree[index] += delta;
-            index += index & !(index-1);
-        }
+        self.blocks[index/self.block_size] += delta;
     }
 
     fn sum_range(&self, left: i32, right: i32) -> i32 {
-        let mut right = (right+1) as usize;
+        let left = left as usize;
+        let right = right as usize;
+        let l = left / self.block_size;
+        let r = right / self.block_size;
+        let mut sum = 0;
+        if l == r {
+            for i in left..=right {
+                sum += self.nums[i];
+            }
+        } else {
+            for i in left..=(l+1)*self.block_size-1 {
+                sum += self.nums[i];
+            }
 
-        let mut right_sum = 0;
-        while right > 0 {
-            right_sum += self.tree[right];
-            right -= right & !(right-1);
+            for i in l+1..r {
+                sum += self.blocks[i];
+            }
+
+            for i in r*self.block_size..=right {
+                sum += self.nums[i];
+            }
         }
 
-        let mut left = left as usize;
-        let mut left_sum = 0;
-        while left > 0 {
-            left_sum += self.tree[left];
-            left -= left & !(left-1);
-        }
-
-        right_sum-left_sum
+        sum
     }
 }
 
