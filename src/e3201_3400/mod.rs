@@ -26,6 +26,7 @@ pub mod e3319_k_th_largest_perfect_subtree_size_in_binary_tree; // 3319. K-th La
 pub mod e3326_minimum_division_operations_to_make_array_non_decreasing; // 3326. Minimum Division Operations to Make Array Non Decreasing
 pub mod e3327_check_if_dfs_strings_are_palindromes; // 3327. Check if DFS Strings Are Palindromes
 pub mod e3340_check_balanced_string; // 3340. Check Balanced String
+pub mod e3356_zero_array_transformation_ii; // 3356. Zero Array Transformation II
 pub mod e3364_minimum_positive_sum_subarray; // 3364. Minimum Positive Sum Subarray
 pub mod e3370_smallest_number_with_all_set_bits; // 3370. Smallest Number With All Set Bits
 pub mod e3389_minimum_operations_to_make_character_frequencies_equal; // 3389. Minimum Operations to Make Character Frequencies Equal
