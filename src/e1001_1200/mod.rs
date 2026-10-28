@@ -47,6 +47,7 @@ pub mod e1094_car_pooling; // 1094. Car Pooling
 pub mod e1100_find_k_length_substrings_with_no_repeated_characters; // 1100. Find K-Length Substrings With No Repeated Characters
 pub mod e1103_distribute_candies_to_people; // 1103. Distribute Candies to People
 pub mod e1105_filling_bookcase_shelves; // 1105. Filling Bookcase Shelves
+pub mod e1109_corporate_flight_bookings; // 1109. Corporate Flight Bookings
 pub mod e1110_delete_nodes_and_return_forest; // 1110. Delete Nodes And Return Forest
 pub mod e1111_maximum_nesting_depth_of_two_valid_parentheses_strings; // 1111. Maximum Nesting Depth of Two Valid Parentheses Strings
 pub mod e1120_maximum_average_subtree; // 1120. Maximum Average Subtree
