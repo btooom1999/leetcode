@@ -52,6 +52,7 @@ pub mod e1530_number_of_good_leaf_nodes_pairs; // 1530. Number of Good Leaf Node
 pub mod e1533_find_the_index_of_the_large_integer; // 1533. Find the Index of the Large Integer
 pub mod e1536_minimum_swaps_to_arrange_a_binary_grid; // 1536. Minimum Swaps to Arrange a Binary Grid
 pub mod e1537_get_the_maximum_score; // 1537. Get the Maximum Score
+pub mod e1541_minimum_insertions_to_balance_a_parentheses_string; // 1541. Minimum Insertions to Balance a Parentheses String
 pub mod e1542_find_longest_awesome_substring; // 1542. Find Longest Awesome Substring
 pub mod e1544_make_the_string_great; // 1544. Make The String Great
 pub mod e1545_find_kth_bit_in_nth_binary_string; // 1545. Find Kth Bit in Nth Binary String

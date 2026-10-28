@@ -25,5 +25,5 @@ mod e3801_4000;
 mod e4001_e4200;
 
 fn main() {
-    e2201_2400::e2343_query_kth_smallest_trimmed_number::main();
+    e1401_1600::e1541_minimum_insertions_to_balance_a_parentheses_string::main();
 }
