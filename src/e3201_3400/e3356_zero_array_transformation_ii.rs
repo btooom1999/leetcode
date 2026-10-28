@@ -29,7 +29,7 @@ fn min_zero_array(nums: Vec<i32>, queries: Vec<Vec<i32>>) -> i32 {
 }
 
 pub fn main() {
-    let nums = [2,0,2].to_vec();
-    let queries = [[0,2,1],[0,2,1],[1,1,3]].into_iter().map(Vec::from).collect();
+    let nums = [2].to_vec();
+    let queries = [[0,0,6],[0,0,2],[0,0,9],[0,0,5],[0,0,10]].into_iter().map(Vec::from).collect();
     println!("{}", min_zero_array(nums, queries));
 }
