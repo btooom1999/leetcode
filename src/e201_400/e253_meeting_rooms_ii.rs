@@ -1,5 +1,3 @@
-use std::collections::VecDeque;
-
 #[derive(Debug, Clone)]
 pub struct Interval {
     pub start: i32,
@@ -12,22 +10,33 @@ impl Interval {
     }
 }
 
-fn min_meeting_rooms(mut intervals: Vec<Interval>) -> i32 {
-    intervals.sort_by_key(|v| v.end);
-
-    let mut rooms = VecDeque::<Interval>::new();
-    for interval in intervals.into_iter() {
-        if let Some(i) = rooms.iter().position(|v| interval.start >= v.end) {
-            rooms[i] = interval;
-        } else {
-            rooms.push_front(interval);
-        }
+fn min_meeting_rooms(intervals: Vec<Interval>) -> i32 {
+    let mut events = vec![];
+    for interval in intervals {
+        events.push((interval.start, 1));
+        events.push((interval.end, -1));
     }
 
-    rooms.len() as i32
+    events.sort_by(|a, b| {
+        if a.0 != b.0 {
+            a.0.cmp(&b.0)
+        } else {
+            a.1.cmp(&b.1)
+        }
+    });
+
+    let mut res = 0;
+    let mut count = 0;
+
+    for event in events {
+        count += event.1;
+        res = res.max(count);
+    }
+
+    res
 }
 
 pub fn main() {
-    let intervals = [(25,579),(218,918),(1281,1307),(623,1320),(685,1353),(1308,1358)].into_iter().map(Interval::new).collect();
+    let intervals = [(0,40),(5,10),(15,20)].into_iter().map(Interval::new).collect();
     println!("{:?}", min_meeting_rooms(intervals));
 }
