@@ -22,6 +22,7 @@ pub mod e1871_jump_game_vii; // 1871. Jump Game VII
 pub mod e1878_get_biggest_three_rhombus_sums_in_a_grid; // 1878. Get Biggest Three Rhombus Sums in a Grid
 pub mod e1882_process_tasks_using_servers; // 1882. Process Tasks Using Servers
 pub mod e1886_determine_whether_matrix_can_be_obtained_by_rotation; // 1886. Determine Whether Matrix Can Be Obtained By Rotation
+pub mod e1893_check_if_all_the_integers_in_a_range_are_covered; // 1893. Check if All the Integers in a Range Are Covered
 pub mod e1895_largest_magic_square; // 1895. Largest Magic Square
 pub mod e1897_redistribute_characters_to_make_all_strings_equal; // 1897. Redistribute Characters to Make All Strings Equal
 pub mod e1898_maximum_number_of_removable_characters; // 1898. Maximum Number of Removable Characters
