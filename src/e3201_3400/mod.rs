@@ -28,6 +28,7 @@ pub mod e3327_check_if_dfs_strings_are_palindromes; // 3327. Check if DFS String
 pub mod e3340_check_balanced_string; // 3340. Check Balanced String
 pub mod e3355_zero_array_transformation_i; // 3355. Zero Array Transformation I
 pub mod e3356_zero_array_transformation_ii; // 3356. Zero Array Transformation II
+pub mod e3362_zero_array_transformation_iii; // 3362. Zero Array Transformation III
 pub mod e3364_minimum_positive_sum_subarray; // 3364. Minimum Positive Sum Subarray
 pub mod e3370_smallest_number_with_all_set_bits; // 3370. Smallest Number With All Set Bits
 pub mod e3389_minimum_operations_to_make_character_frequencies_equal; // 3389. Minimum Operations to Make Character Frequencies Equal

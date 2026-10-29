@@ -24,6 +24,7 @@ pub mod e1662_check_if_two_string_arrays_are_equivalent; // 1662. Check If Two S
 pub mod e1669_merge_in_between_linked_lists; // 1669. Merge In Between Linked Lists
 pub mod e1672_richest_customer_wealth; // 1672. Richest Customer Wealth
 pub mod e1673_find_the_most_competitive_subsequence; // 1673. Find the Most Competitive Subsequence
+pub mod e1674_minimum_moves_to_make_array_complementary; // 1674. Minimum Moves to Make Array Complementary
 pub mod e1676_lowest_common_ancestor_of_a_binary_tree_iv; // 1676. Lowest Common Ancestor of a Binary Tree IV
 pub mod e1680_concatenation_of_consecutive_binary_numbers; // 1680. Concatenation of Consecutive Binary Numbers
 pub mod e1684_count_the_number_of_consistent_strings; // 1684. Count the Number of Consistent Strings
