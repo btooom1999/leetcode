@@ -25,5 +25,5 @@ mod e3801_4000;
 mod e4001_e4200;
 
 fn main() {
-    e2001_2200::e2054_two_best_non_overlapping_events::main();
+    e3401_3600::e3414_maximum_score_of_non_overlapping_intervals::main();
 }
