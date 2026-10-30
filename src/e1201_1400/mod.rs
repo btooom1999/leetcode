@@ -45,6 +45,7 @@ pub mod e1342_number_of_steps_to_reduce_a_number_to_zero; // 1342. Number of Ste
 pub mod e1343_number_of_sub_arrays_of_size_k_and_average_greater_than_or_equal_to_threshold; // 1343. Number of Sub-arrays of Size K and Average Greater than or Equal to Threshold
 pub mod e1347_minimum_number_of_steps_to_make_two_strings_anagram; // 1347. Minimum Number of Steps to Make Two Strings Anagram
 pub mod e1351_count_negative_numbers_in_a_sorted_matrix; // 1351. Count Negative Numbers in a Sorted Matrix
+pub mod e1353_maximum_number_of_events_that_can_be_attended; // 1353. Maximum Number of Events That Can Be Attended
 pub mod e1356_sort_integers_by_the_number_of_1_bits; // 1356. Sort Integers by The Number of 1 Bits
 pub mod e1358_number_of_substrings_containing_all_three_characters; // 1358. Number of Substrings Containing All Three Characters
 pub mod e1361_validate_binary_tree_nodes; // 1361. Validate Binary Tree Nodes
