@@ -3,6 +3,7 @@
 pub mod e2001_number_of_pairs_of_interchangeable_rectangles; // 2001. Number of Pairs of Interchangeable Rectangles
 pub mod e2002_maximum_product_of_the_length_of_two_palindromic_subsequences; // 2002. Maximum Product of the Length of Two Palindromic Subsequences
 pub mod e2006_count_number_of_pairs_with_absolute_difference_k; // 2006. Count Number of Pairs With Absolute Difference K
+pub mod e2008_maximum_earnings_from_taxi; // 2008. Maximum Earnings From Taxi
 pub mod e2012_sum_of_beauty_in_the_array; // 2012. Sum of Beauty in the Array
 pub mod e2016_maximum_difference_between_increasing_elements; // 2016. Maximum Difference Between Increasing Elements
 pub mod e2017_grid_game; // 2017. Grid Game
