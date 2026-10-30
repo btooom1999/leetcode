@@ -17,6 +17,7 @@ pub mod e2038_remove_colored_pieces_if_both_neighbors_are_the_same_color; // 203
 pub mod e2042_check_if_numbers_are_ascending_in_a_sentence; // 2042. Check if Numbers Are Ascending in a Sentence
 pub mod e2044_count_number_of_maximum_bitwise_or_subsets; // 2044. Count Number of Maximum Bitwise-OR Subsets
 pub mod e2053_kth_distinct_string_in_an_array; // 2053. Kth Distinct String in an Array
+pub mod e2054_two_best_non_overlapping_events; // 2054. Two Best Non-Overlapping Events
 pub mod e2058_find_the_minimum_and_maximum_number_of_nodes_between_critical_points; // 2058. Find the Minimum and Maximum Number of Nodes Between Critical Points
 pub mod e2059_minimum_operations_to_convert_number; // 2059. Minimum Operations to Convert Number
 pub mod e2062_count_vowel_substrings_of_a_string; // 2062. Count Vowel Substrings of a String
