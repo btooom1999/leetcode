@@ -11,6 +11,7 @@ pub mod e1219_path_with_maximum_gold; // 1219. Path with Maximum Gold
 pub mod e1222_queens_that_can_attack_the_king; // 1222. Queens That Can Attack the King
 pub mod e1228_missing_number_in_arithmetic_progression; // 1228. Missing Number In Arithmetic Progression
 pub mod e1233_remove_sub_folders_from_the_filesystem; // 1233. Remove Sub-Folders from the Filesystem
+pub mod e1235_maximum_profit_in_job_scheduling; // 1235. Maximum Profit in Job Scheduling
 pub mod e1238_circular_permutation_in_binary_representation; // 1238. Circular Permutation in Binary Representation
 pub mod e1239_maximum_length_of_a_concatenated_string_with_unique_characters; // 1239. Maximum Length of a Concatenated String with Unique Characters
 pub mod e1247_minimum_swaps_to_make_string_equal; // 1247. Minimum Swaps to Make Strings Equal
