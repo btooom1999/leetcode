@@ -11,6 +11,7 @@ pub mod e1839_longest_substring_of_all_vowels_in_order; // 1839. Longest Substri
 pub mod e1845_seat_reservation_manager; // 1845. Seat Reservation Manager
 pub mod e1846_maximum_element_after_decreasing_and_rearranging; // 1846. Maximum Element After Decreasing and Rearranging
 pub mod e1849_splitting_a_string_into_descending_consecutive_values; // 1849. Splitting a String Into Descending Consecutive Values
+pub mod e1851_minimum_interval_to_include_each_query; // 1851. Minimum Interval to Include Each Query
 pub mod e1854_maximum_population_year; // 1854. Maximum Population Year
 pub mod e1855_maximum_distance_between_a_pair_of_values; // 1855. Maximum Distance Between a Pair of Values
 pub mod e1856_maximum_subarray_min_product; // 1856. Maximum Subarray Min-Product

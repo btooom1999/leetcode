@@ -15,6 +15,7 @@ pub mod e2234_maximum_total_beauty_of_the_gardens; // 2234. Maximum Total Beauty
 pub mod e2239_find_closest_number_to_zero; // 2239. Find Closest Number to Zero
 pub mod e2242_maximum_score_of_a_node_sequence; // 2242. Maximum Score of a Node Sequence
 pub mod e2243_calculate_digit_sum_of_a_string; // 2243. Calculate Digit Sum of a String
+pub mod e2251_number_of_flowers_in_full_bloom; // 2251. Number of Flowers in Full Bloom
 pub mod e2258_escape_the_spreading_fire; // 2258. Escape the Spreading Fire
 pub mod e2260_minimum_consecutive_cards_to_pick_up; // 2260. Minimum Consecutive Cards to Pick Up
 pub mod e2264_largest_3_same_digit_number_in_string; // 2264. Largest 3-Same-Digit Number in String
