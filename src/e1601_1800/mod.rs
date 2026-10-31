@@ -1,6 +1,7 @@
 // LeetCode 1601-1800
 
 pub mod e1605_find_valid_matrix_given_row_and_column_sums; // 1605. Find Valid Matrix Given Row and Column Sums
+pub mod e1606_find_servers_that_handled_most_number_of_requests; // 1606. Find Servers That Handled Most Number of Requests
 pub mod e1608_special_array_with_x_elements_greater_than_or_equal_x; // 1608. Special Array With X Elements Greater Than or Equal X
 pub mod e1609_even_odd_tree; // 1609. Even Odd Tree
 pub mod e1614_maximum_nesting_depth_of_the_parentheses; // 1614. Maximum Nesting Depth of the Parentheses
