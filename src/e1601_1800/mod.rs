@@ -45,6 +45,7 @@ pub mod e1734_decode_xored_permutation; // 1734. Decode XORed Permutation
 pub mod e1738_find_kth_largest_xor_coordinate_value; // 1738. Find Kth Largest XOR Coordinate Value
 pub mod e1749_maximum_absolute_sum_of_any_subarray; // 1749. Maximum Absolute Sum of Any Subarray
 pub mod e1750_minimum_length_of_string_after_deleting_similar_ends; // 1750. Minimum Length of String After Deleting Similar Ends
+pub mod e1751_maximum_number_of_events_that_can_be_attended_ii; // 1751. Maximum Number of Events That Can Be Attended II
 pub mod e1752_check_if_array_is_sorted_and_rotated; // 1752. Check if Array Is Sorted and Rotated
 pub mod e1754_largest_merge_of_two_strings; // 1754. Largest Merge Of Two Strings
 pub mod e1758_minimum_changes_to_make_alternating_binary_string; // 1758. Minimum Changes To Make Alternating Binary String
