@@ -1,6 +1,7 @@
 // LeetCode 2401-2600
 
 pub mod e2401_longest_nice_subarray; // 2401. Longest Nice Subarray
+pub mod e2402_meeting_room_iii; // 2402. Meeting Rooms III
 pub mod e2405_optimal_partition_of_string; // 2405. Optimal Partition of String
 pub mod e2406_divide_intervals_into_minimum_number_of_groups; // 2406. Divide Intervals Into Minimum Number of Groups
 pub mod e2411_smallest_subarrays_with_maximum_bitwise_or; // 2411. Smallest Subarrays With Maximum Bitwise OR

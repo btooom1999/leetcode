@@ -25,5 +25,5 @@ mod e3801_4000;
 mod e4001_e4200;
 
 fn main() {
-    e1601_1800::e1751_maximum_number_of_events_that_can_be_attended_ii::main();
+    e2401_2600::e2402_meeting_room_iii::main();
 }
