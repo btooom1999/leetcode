@@ -25,5 +25,5 @@ mod e3801_4000;
 mod e4001_e4200;
 
 fn main() {
-    e2201_2400::e2251_number_of_flowers_in_full_bloom::main();
+    e4001_e4200::e4065_rearrange_array_by_removing_distinct_values::main();
 }
