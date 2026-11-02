@@ -16,6 +16,7 @@ pub mod e2037_minimum_number_of_moves_to_seat_everyone; // 2037. Minimum Number 
 pub mod e2038_remove_colored_pieces_if_both_neighbors_are_the_same_color; // 2038. Remove Colored Pieces if Both Neighbors are the Same Color
 pub mod e2042_check_if_numbers_are_ascending_in_a_sentence; // 2042. Check if Numbers Are Ascending in a Sentence
 pub mod e2044_count_number_of_maximum_bitwise_or_subsets; // 2044. Count Number of Maximum Bitwise-OR Subsets
+pub mod e2048_next_greater_numerically_balanced_number; // 2048. Next Greater Numerically Balanced Number
 pub mod e2053_kth_distinct_string_in_an_array; // 2053. Kth Distinct String in an Array
 pub mod e2054_two_best_non_overlapping_events; // 2054. Two Best Non-Overlapping Events
 pub mod e2058_find_the_minimum_and_maximum_number_of_nodes_between_critical_points; // 2058. Find the Minimum and Maximum Number of Nodes Between Critical Points

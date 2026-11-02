@@ -25,5 +25,5 @@ mod e3801_4000;
 mod e4001_e4200;
 
 fn main() {
-    e4001_e4200::e4065_rearrange_array_by_removing_distinct_values::main();
+    e201_400::e350_intersection_of_two_arrays_ii::main();
 }
