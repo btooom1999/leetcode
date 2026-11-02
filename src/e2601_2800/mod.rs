@@ -2,6 +2,7 @@
 
 pub mod e2602_minimum_operations_to_make_all_array_elements_equal; // 2602. Minimum Operations to Make All Array Elements Equal
 pub mod e2606_find_the_substring_with_maximum_cost; // 2606. Find the Substring With Maximum Cost
+pub mod e2610_convert_an_array_into_a_2d_array_with_conditions; // 2610. Convert an Array Into a 2D Array With Conditions
 pub mod e2615_sum_of_distances; // 2615. Sum of Distances
 pub mod e2641_cousins_in_binary_tree_ii; // 2641. Cousins in Binary Tree II
 pub mod e2657_find_the_prefix_common_array_of_two_arrays; // 2657. Find the Prefix Common Array of Two Arrays
