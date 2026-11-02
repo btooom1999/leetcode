@@ -44,6 +44,7 @@ pub mod e2347_best_poker_hand; // 2347. Best Poker Hand
 pub mod e2348_number_of_zero_filled_subarrays; // 2348. Number of Zero-Filled Subarrays
 pub mod e2351_first_letter_to_appear_twice; // 2351. First Letter to Appear Twice
 pub mod e2359_find_closest_node_to_given_two_nodes; // 2359. Find Closest Node to Given Two Nodes
+pub mod e2363_merge_similar_items; // 2363. Merge Similar Items
 pub mod e2364_count_number_of_bad_pairs; // 2364. Count Number of Bad Pairs
 pub mod e2367_number_of_arithmetic_triplets; // 2367. Number of Arithmetic Triplets
 pub mod e2368_reachable_nodes_with_restrictions; // 2368. Reachable Nodes With Restrictions
