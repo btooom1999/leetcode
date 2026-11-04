@@ -4,18 +4,9 @@ fn find_kth_positive(arr: Vec<i32>, k: i32) -> i32 {
 
     while l < r {
         let m = (l+r)/2;
-        let mut left = 0;
-        let mut right = arr.len();
-        while left < right {
-            let mid = (left+right)/2;
-            if arr[mid] <= m {
-                left = mid+1;
-            } else {
-                right = mid;
-            }
-        }
+        let at = arr.partition_point(|&v| v <= m) as i32;
 
-        if m - (left as i32) < k {
+        if m - at < k {
             l = m+1;
         } else {
             r = m;
