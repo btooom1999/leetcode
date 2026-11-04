@@ -25,5 +25,5 @@ mod e3801_4000;
 mod e4001_e4200;
 
 fn main() {
-    e2001_2200::e2048_next_greater_numerically_balanced_number::main();
+    e3201_3400::e3362_zero_array_transformation_iii::main();
 }
