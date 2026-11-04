@@ -65,6 +65,7 @@ pub mod e1572_matrix_diagonal_sum; // 1572. Matrix Diagonal Sum
 pub mod e1574_shortest_subarray_to_be_removed_to_make_array_sorted; // 1574. Shortest Subarray to be Removed to Make Array Sorted
 pub mod e1582_special_positions_in_a_binary_matrix; // 1582. Special Positions in a Binary Matrix
 pub mod e1588_sum_of_all_odd_length_subarrays; // 1588. Sum of All Odd Length Subarrays
+pub mod e1589_maximum_sum_obtained_of_any_permutation; // 1589. Maximum Sum Obtained of Any Permutation
 pub mod e1590_make_sum_divisible_by_p; // 1590. Make Sum Divisible by P
 pub mod e1593_split_a_string_into_the_max_number_of_unique_substrings; // 1593. Split a String Into the Max Number of Unique Substrings
 pub mod e1594_maximum_non_negative_product_in_a_matrix; // 1594. Maximum Non Negative Product in a Matrix

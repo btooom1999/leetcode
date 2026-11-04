@@ -25,5 +25,5 @@ mod e3801_4000;
 mod e4001_e4200;
 
 fn main() {
-    e3201_3400::e3362_zero_array_transformation_iii::main();
+    e1401_1600::e1589_maximum_sum_obtained_of_any_permutation::main();
 }
