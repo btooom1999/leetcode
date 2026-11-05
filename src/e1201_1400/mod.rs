@@ -43,6 +43,7 @@ pub mod e1325_delete_leaves_with_a_given_value; // 1325. Delete Leaves With a Gi
 pub mod e1326_minimum_number_of_taps_to_open_to_water_a_garden; // 1326. Minimum Number of Taps to Open to Water a Garden
 pub mod e1329_sort_the_matrix_diagonally; // 1329. Sort the Matrix Diagonally
 pub mod e1337_the_k_weakest_rows_in_a_matrix; // 1337. The K Weakest Rows in a Matrix
+pub mod e1338_reduce_array_size_to_the_half; // 1338. Reduce Array Size to The Half
 pub mod e1342_number_of_steps_to_reduce_a_number_to_zero; // 1342. Number of Steps to Reduce a Number to Zero
 pub mod e1343_number_of_sub_arrays_of_size_k_and_average_greater_than_or_equal_to_threshold; // 1343. Number of Sub-arrays of Size K and Average Greater than or Equal to Threshold
 pub mod e1347_minimum_number_of_steps_to_make_two_strings_anagram; // 1347. Minimum Number of Steps to Make Two Strings Anagram
