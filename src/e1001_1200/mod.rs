@@ -33,6 +33,7 @@ pub mod e1048_longest_string_chain; // 1048. Longest String Chain
 pub mod e1049_last_stone_weight_ii; // 1049. Last Stone Weight II
 pub mod e1051_height_checker; // 1051. Height Checker
 pub mod e1052_grumpy_bookstore_owner; // 1052. Grumpy Bookstore Owner
+pub mod e1054_distant_barcodes; // 1054. Distant Barcodes
 pub mod e1056_confusing_number; // 1056. Confusing Number
 pub mod e1060_missing_element_in_sorted_array; // 1060. Missing Element in Sorted Array
 pub mod e1061_lexicographically_smallest_equivalent_string; // 1061. Lexicographically Smallest Equivalent String
