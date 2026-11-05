@@ -9,6 +9,7 @@ pub mod e1413_minimum_value_to_get_positive_step_by_step_sum; // 1413. Minimum V
 pub mod e1415_the_k_th_lexicographical_string_of_all_happy_strings_of_length_n; // 1415. The k-th Lexicographical String of All Happy Strings of Length n
 pub mod e1422_maximum_score_after_splitting_a_string; // 1422. Maximum Score After Splitting a String
 pub mod e1423_maximum_points_you_can_obtain_from_cards; // 1423. Maximum Points You Can Obtain from Cards
+pub mod e1424_diagonal_traverse_ii; // 1424. Diagonal Traverse II
 pub mod e1426_counting_elements; // 1426. Counting Elements
 pub mod e1427_perform_string_shifts; // 1427. Perform String Shifts
 pub mod e1436_destination_city; // 1436. Destination City
