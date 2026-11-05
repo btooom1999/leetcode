@@ -13,6 +13,7 @@ pub mod e1424_diagonal_traverse_ii; // 1424. Diagonal Traverse II
 pub mod e1426_counting_elements; // 1426. Counting Elements
 pub mod e1427_perform_string_shifts; // 1427. Perform String Shifts
 pub mod e1436_destination_city; // 1436. Destination City
+pub mod e1438_longest_continuous_subarray_with_absolute_diff_less_than_or_equal_to_limit; // 1438. Longest Continuous Subarray With Absolute Diff Less Than or Equal to Limit
 pub mod e1441_build_an_array_with_stack_operations; // 1441. Build an Array With Stack Operations
 pub mod e1442_count_triplets_that_can_form_two_arrays_of_equal_xor; // 1442. Count Triplets That Can Form Two Arrays of Equal XOR
 pub mod e1443_minimum_time_to_collect_all_apples_in_a_tree; // 1443. Minimum Time to Collect All Apples in a Tree

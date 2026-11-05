@@ -25,5 +25,5 @@ mod e3801_4000;
 mod e4001_e4200;
 
 fn main() {
-    e1401_1600::e1424_diagonal_traverse_ii::main();
+    e1401_1600::e1438_longest_continuous_subarray_with_absolute_diff_less_than_or_equal_to_limit::main();
 }
