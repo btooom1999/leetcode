@@ -22,6 +22,7 @@ pub mod e846_hand_of_straights; // 846. Hand of Straights
 pub mod e851_loud_and_rich; // 851. Loud and Rich
 pub mod e852_peak_index_in_a_mountain_array; // 852. Peak Index in a Mountain Array
 pub mod e853_car_fleet; // 853. Car Fleet
+pub mod e855_exam_room; // 855. Exam Room
 pub mod e856_score_of_parentheses; // 856. Score of Parentheses
 pub mod e860_lemonade_change; // 860. Lemonade Change
 pub mod e861_score_after_flipping_matrix; // 861. Score After Flipping Matrix

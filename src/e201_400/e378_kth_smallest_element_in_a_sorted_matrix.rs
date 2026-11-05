@@ -1,7 +1,7 @@
 fn count(
     m: usize,
     n: usize,
-    matrix: &Vec<Vec<i32>>,
+    matrix: &[Vec<i32>],
     num: i32,
 ) -> i32 {
     let mut count = 0;

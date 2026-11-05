@@ -21,6 +21,7 @@ pub mod e652_find_duplicate_subtrees; // 652. Find Duplicate Subtrees
 pub mod e653_two_sum_iv_input_is_a_bst; // 653. Two Sum IV - Input is a BST
 pub mod e654_maximum_binary_tree; // 654. Maximum Binary Tree
 pub mod e658_find_k_closest_elements; // 658. Find K Closest Elements
+pub mod e659_split_array_into_consecutive_subsequences; // 659. Split Array into Consecutive Subsequences
 pub mod e661_image_smoother; // 661. Image Smoother
 pub mod e662_maximum_width_of_binary_tree; // 662. Maximum Width of Binary Tree
 pub mod e665_non_decreasing_array; // 665. Non-decreasing Array
