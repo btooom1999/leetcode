@@ -21,6 +21,7 @@ pub mod e2433_find_the_original_array_of_prefix_xor; // 2433. Find The Original 
 pub mod e2435_paths_in_matrix_whose_sum_is_divisible_by_k; // 2435. Paths in Matrix Whose Sum Is Divisible by K
 pub mod e2438_range_product_queries_of_powers; // 2438. Range Product Queries of Powers
 pub mod e2439_minimize_maximum_of_array; // 2439. Minimize Maximum of Array
+pub mod e2444_count_subarrays_with_fixed_bounds; // 2444. Count Subarrays With Fixed Bounds
 pub mod e2446_determine_if_two_events_have_conflict; // 2446. Determine if Two Events Have Conflict
 pub mod e2447_number_of_subarrays_with_gcd_equal_to_k; // 2447. Number of Subarrays With GCD Equal to K
 pub mod e2452_words_within_two_edits_of_dictionary; // 2452. Words Within Two Edits of Dictionary

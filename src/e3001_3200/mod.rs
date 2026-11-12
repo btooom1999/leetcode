@@ -1,5 +1,6 @@
 // LeetCode 3001-3200
 
+pub mod e3002_maximum_size_of_a_set_after_removals; // 3002. Maximum Size of a Set After Removals
 pub mod e3005_count_elements_with_maximum_frequency; // 3005. Count Elements With Maximum Frequency
 pub mod e3006_find_beautiful_indices_in_the_given_array_i; // 3006. Find Beautiful Indices in the Given Array I
 pub mod e3008_find_beautiful_indices_in_the_given_array_ii; // 3008. Find Beautiful Indices in the Given Array II

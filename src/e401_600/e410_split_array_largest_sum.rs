@@ -14,12 +14,12 @@ fn split_array(nums: Vec<i32>, k: i32) -> i32 {
                 sum = 0;
             }
 
-            if sum + nums[i] > m {
+            sum += nums[i];
+
+            if sum > m {
                 groups = k+1;
                 break;
             }
-
-            sum += nums[i];
         }
 
         if groups > k {
