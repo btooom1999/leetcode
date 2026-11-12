@@ -25,5 +25,5 @@ mod e3801_4000;
 mod e4001_e4200;
 
 fn main() {
-    e2401_2600::e2444_count_subarrays_with_fixed_bounds::main();
+    e801_1000::e992_subarrays_with_k_different_integers::main();
 }
