@@ -1,20 +1,25 @@
 fn count_subarrays(nums: Vec<i32>, min_k: i32, max_k: i32) -> i64 {
-    let n = nums.len();
-    let mut count_min = 0;
-    let mut count_max = 0;
     let mut res = 0;
-    for i in 0..n {
-        if nums[i] < min_k || nums[i] > max_k {
-            count_min = 0;
-            count_max = 0;
-        } else if nums[i] == max_k {
-            res += count_min;
-            count_max += 1;
-        } else if nums[i] == min_k {
-            res += count_max;
-            count_min += 1;
-        } else {
-            res += count_min * count_max;
+    let mut min_at = -1i64;
+    let mut max_at = -1i64;
+    let mut limit = -1;
+
+    for (i, num) in nums.into_iter().enumerate() {
+        if num < min_k || num > max_k {
+            limit = i as i64;
+            continue;
+        }
+
+        if num == min_k {
+            min_at = i as i64;
+        }
+
+        if num == max_k {
+            max_at = i as i64;
+        }
+
+        if min_at > limit && max_at > limit {
+            res += min_at.min(max_at) - limit;
         }
     }
 
@@ -22,8 +27,8 @@ fn count_subarrays(nums: Vec<i32>, min_k: i32, max_k: i32) -> i64 {
 }
 
 pub fn main() {
-    let nums = [35054,398719,945315,945315,820417,945315,35054,945315,171832,945315,35054,109750,790964,441974,552913].to_vec();
-    let min_k = 35054;
-    let max_k = 945315;
+    let nums = vec![2,1,2,3,1,1,3,1,2];
+    let min_k = 1;
+    let max_k = 2;
     println!("{}", count_subarrays(nums, min_k, max_k));
 }

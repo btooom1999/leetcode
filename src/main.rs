@@ -25,5 +25,5 @@ mod e3801_4000;
 mod e4001_e4200;
 
 fn main() {
-    e3001_3200::e3002_maximum_size_of_a_set_after_removals::main();
+    e2401_2600::e2444_count_subarrays_with_fixed_bounds::main();
 }
