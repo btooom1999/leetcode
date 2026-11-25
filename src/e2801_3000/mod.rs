@@ -1,5 +1,6 @@
 // LeetCode 2801-3000
 
+pub mod e2810_faulty_keyboard; // 2810. Faulty Keyboard
 pub mod e2812_find_the_safest_path_in_a_grid; // 2812. Find the Safest Path in a Grid
 pub mod e2842_count_k_subsequences_of_a_string_with_maximum_beauty; // 2842. Count K-Subsequences of a String With Maximum Beauty
 pub mod e2848_points_that_intersect_with_cars; // 2848. Points That Intersect With Cars
