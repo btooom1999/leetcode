@@ -1,7 +1,7 @@
 use std::collections::HashSet;
 
 const MOD: i128 = 2i128.pow(61);
-const BASE: i128 = 211; // require a base number larger than the numbers of a array
+const BASE: i128 = 211; // require the base larger than the numbers of a array
 
 fn count_distinct(nums: Vec<i32>, k: i32, p: i32) -> i32 {
     let n = nums.len();

@@ -98,6 +98,7 @@ pub mod e341_flatten_nested_list_iterator; // 341. Flatten Nested List Iterator
 pub mod e342_power_of_four; // 342. Power of Four
 pub mod e343_integer_break; // 343. Integer Break
 pub mod e344_reverse_string; // 344. Reverse String
+pub mod e345_reverse_vowels_of_a_string; // 345. Reverse Vowels of a String
 pub mod e346_moving_average_from_data_stream; // 346. Moving Average from Data Stream
 pub mod e347_top_k_frequent_elements; // 347. Top K Frequent Elements
 pub mod e349_intersection_of_two_arrays; // 349. Intersection of Two Arrays

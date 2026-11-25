@@ -25,5 +25,5 @@ mod e3801_4000;
 mod e4001_e4200;
 
 fn main() {
-    e2201_2400::e2261_k_divisible_elements_subarrays::main();
+    e201_400::e345_reverse_vowels_of_a_string::main();
 }
