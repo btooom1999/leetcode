@@ -86,6 +86,7 @@ pub mod e322_coin_change; // 322. Coin Change
 pub mod e323_number_of_connected_components_in_an_undirected_graph; // 323. Number of Connected Components in an Undirected Graph
 pub mod e326_power_of_three; // 326. Power of Three
 pub mod e327_count_of_range_sum; // 327. Count of Range Sum
+pub mod e328_odd_even_linked_list; // 328. Odd Even Linked List
 pub mod e329_longest_increasing_path_in_a_matrix; // 329. Longest Increasing Path in a Matrix
 pub mod e331_verify_preorder_serialization_of_a_binary_tree; // 331. Verify Preorder Serialization of a Binary Tree
 pub mod e332_reconstruct_itinerary; // 332. Reconstruct Itinerary
@@ -120,6 +121,7 @@ pub mod e375_guess_number_higher_or_lower_ii; // 375. Guess Number Higher or Low
 pub mod e376_wiggle_subsequence; // 376. Wiggle Subsequence
 pub mod e377_combination_sum_iv; // 377. Combination Sum IV
 pub mod e378_kth_smallest_element_in_a_sorted_matrix; // 378. Kth Smallest Element in a Sorted Matrix
+pub mod e382_linked_list_random_node; // 382. Linked List Random Node
 pub mod e383_ransom_note; // 383. Ransom Note
 pub mod e385_mini_parser; // 385. Mini Parser
 pub mod e386_lexicographical_numbers; // 386. Lexicographical Numbers
