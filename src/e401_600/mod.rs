@@ -68,6 +68,7 @@ pub mod e513_find_bottom_left_tree_value; // 513. Find Bottom Left Tree Value
 pub mod e515_find_largest_value_in_each_tree_row; // 515. Find Largest Value in Each Tree Row
 pub mod e516_longest_palindromic_subsequence; // 516. Longest Palindromic Subsequence
 pub mod e518_coin_change_ii; // 518. Coin Change II
+pub mod e519_random_flip_matrix; // 519. Random Flip Matrix
 pub mod e523_continuous_subarray_sum; // 523. Continuous Subarray Sum
 pub mod e526_beautiful_arrangement; // 526. Beautiful Arrangement
 pub mod e528_random_pick_with_weight; // 528. Random Pick with Weight
