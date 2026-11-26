@@ -1,16 +1,30 @@
+fn get_hint(secret: String, guess: String) -> String {
+    let secret = secret.as_bytes();
+    let guess = guess.as_bytes();
+    let n = secret.len();
+    let mut bulls = 0;
+    let mut cows = 0;
+    let mut counts = [0; 10];
+    for i in 0..n {
+        if secret[i] != guess[i] {
+            counts[(secret[i]-b'0') as usize] += 1;
+        } else {
+            bulls += 1;
+        }
+    }
+
+    for i in 0..n {
+        if secret[i] != guess[i] && counts[(guess[i]-b'0') as usize] > 0 {
+            cows += 1;
+            counts[(guess[i]-b'0') as usize] -= 1;
+        }
+    }
+
+    format!("{bulls}A{cows}B")
+}
+
 pub fn main() {
-    let n: usize = 4;
-    let k: usize = 2;
-
-    let mut dp: Vec<i32> = Vec::new();
-
-    for i in 0..=k {
-        dp.push((i+1) as i32);
-    }
-
-    for i in k+1..=n {
-        dp.push(dp[i-1] + dp[i-k-1]);
-    }
-
-    println!("{}", dp[n]);
+    let secret = "1123".to_string();
+    let guess = "0111".to_string();
+    println!("{}", get_hint(secret, guess));
 }
