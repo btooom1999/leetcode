@@ -33,6 +33,7 @@ pub mod e232_implement_queue_using_stacks; // 232. Implement Queue using Stacks
 pub mod e234_palindrome_linked_list; // 234. Palindrome Linked List
 pub mod e235_lowest_common_ancestor_of_a_binary_search_tree; // 235. Lowest Common Ancestor of a Binary Search Tree
 pub mod e236_lowest_common_ancestor_of_a_binary_tree; // 236. Lowest Common Ancestor of a Binary Tree
+pub mod e237_delete_node_in_a_linked_list; // 237. Delete Node in a Linked List
 pub mod e238_product_of_array_except_self; // 238. Product of Array Except Self
 pub mod e239_sliding_window_maximum; // 239. Sliding Window Maximum
 pub mod e240_search_a_2d_matrix_ii; // 240. Search a 2D Matrix II
