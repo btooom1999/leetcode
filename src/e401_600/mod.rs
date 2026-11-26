@@ -57,6 +57,7 @@ pub mod e493_reverse_pairs; // 493. Reverse Pairs
 pub mod e494_target_sum; // 494. Target Sum
 pub mod e495_teemo_attacking; // 495. Teemo Attacking
 pub mod e496_next_greater_element_i; // 496. Next Greater Element I
+pub mod e497_random_point_in_non_overlapping_rectangles; // 497. Random Point in Non-overlapping Rectangles
 pub mod e498_diagonal_traverse; // 498. Diagonal Traverse
 pub mod e501_find_mode_in_binary_search_tree; // 501. Find Mode in Binary Search Tree
 pub mod e503_next_greater_element_ii; // 503. Next Greater Element II
