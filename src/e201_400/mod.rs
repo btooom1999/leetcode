@@ -135,4 +135,5 @@ pub mod e394_decode_string; // 394. Decode String
 pub mod e395_longest_substring_with_at_least_k_repeating_characters; // 395. Longest Substring with At Least K Repeating Characters
 pub mod e396_rotate_function; // 396. Rotate Function
 pub mod e397_integer_replacement; // 397. Integer Replacement
+pub mod e398_random_pick_index; // 398. Random Pick Index
 pub mod e399_evaluate_division; // 399. Evaluate Division

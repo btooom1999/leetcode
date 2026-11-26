@@ -25,5 +25,5 @@ mod e3801_4000;
 mod e4001_e4200;
 
 fn main() {
-    e201_400::e382_linked_list_random_node::main();
+    e201_400::e398_random_pick_index::main();
 }
