@@ -24,6 +24,7 @@ pub mod e852_peak_index_in_a_mountain_array; // 852. Peak Index in a Mountain Ar
 pub mod e853_car_fleet; // 853. Car Fleet
 pub mod e855_exam_room; // 855. Exam Room
 pub mod e856_score_of_parentheses; // 856. Score of Parentheses
+pub mod e859_buddy_strings; // 859. Buddy Strings
 pub mod e860_lemonade_change; // 860. Lemonade Change
 pub mod e861_score_after_flipping_matrix; // 861. Score After Flipping Matrix
 pub mod e864_shortest_path_to_get_all_keys; // 864. Shortest Path to Get All Keys
