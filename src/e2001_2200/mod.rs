@@ -32,6 +32,7 @@ pub mod e2088_count_fertile_pyramids_in_a_land; // 2088. Count Fertile Pyramids 
 pub mod e2090_k_radius_subarray_averages; // 2090. K Radius Subarray Averages
 pub mod e2096_step_by_step_directions_from_a_binary_tree_node_to_another; // 2096. Step-By-Step Directions From a Binary Tree Node to Another
 pub mod e2100_find_good_days_to_rob_the_bank; // 2100. Find Good Days to Rob the Bank
+pub mod e2103_rings_and_rods; // 2103. Rings and Rods
 pub mod e2104_sum_of_subarray_ranges; // 2104. Sum of Subarray Ranges
 pub mod e2108_find_first_palindromic_string_in_the_array; // 2108. Find First Palindromic String in the Array
 pub mod e2109_adding_spaces_to_a_string; // 2109. Adding Spaces to a String

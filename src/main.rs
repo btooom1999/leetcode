@@ -25,5 +25,5 @@ mod e3801_4000;
 mod e4001_e4200;
 
 fn main() {
-    e3201_3400::e3265_count_almost_equal_pairs_i::main();
+    e2001_2200::e2103_rings_and_rods::main();
 }
