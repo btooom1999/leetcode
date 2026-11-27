@@ -42,6 +42,7 @@ pub mod e1926_nearest_exit_from_entrance_in_maze; // 1926. Nearest Exit from Ent
 pub mod e1929_concatenation_of_array; // 1929. Concatenation of Array
 pub mod e1930_unique_length_3_palindromic_subsequences; // 1930. Unique Length-3 Palindromic Subsequences
 pub mod e1937_maximum_number_of_points_with_cost; // 1937. Maximum Number of Points with Cost
+pub mod e1941_check_if_all_characters_have_equal_number_of_occurrences; // 1941. Check if All Characters Have Equal Number of Occurrences
 pub mod e1942_the_number_of_the_smallest_unoccupied_chair; // 1942. The Number of the Smallest Unoccupied Chair
 pub mod e1943_describe_the_painting; // 1943. Describe the Painting
 pub mod e1944_number_of_visible_people_in_a_queue; // 1944. Number of Visible People in a Queue
