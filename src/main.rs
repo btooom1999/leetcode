@@ -25,5 +25,5 @@ mod e3801_4000;
 mod e4001_e4200;
 
 fn main() {
-    e201_400::e380_insert_delete_getrandom_o1::main();
+    e201_400::e381_insert_delete_getrandom_o1_duplicates_allowed::main();
 }

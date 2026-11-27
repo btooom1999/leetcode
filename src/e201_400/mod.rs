@@ -122,6 +122,7 @@ pub mod e376_wiggle_subsequence; // 376. Wiggle Subsequence
 pub mod e377_combination_sum_iv; // 377. Combination Sum IV
 pub mod e378_kth_smallest_element_in_a_sorted_matrix; // 378. Kth Smallest Element in a Sorted Matrix
 pub mod e380_insert_delete_getrandom_o1; // 380. Insert Delete GetRandom O(1)
+pub mod e381_insert_delete_getrandom_o1_duplicates_allowed; // 381. Insert Delete GetRandom O(1) - Duplicates allowed
 pub mod e382_linked_list_random_node; // 382. Linked List Random Node
 pub mod e383_ransom_note; // 383. Ransom Note
 pub mod e384_shuffle_an_array; // 384. Shuffle an Array
