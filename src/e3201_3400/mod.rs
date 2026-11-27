@@ -14,6 +14,7 @@ pub mod e3243_shortest_distance_after_road_addition_queries_i; // 3243. Shortest
 pub mod e3254_find_the_power_of_k_size_subarrays_i; // 3254. Find the Power of K-Size Subarrays I
 pub mod e3255_find_the_power_of_k_size_subarrays_ii; // 3255. Find the Power of K-Size Subarrays II
 pub mod e3264_final_array_state_after_k_multiplication_operations_i; // 3264. Final Array State After K Multiplication Operations I
+pub mod e3265_count_almost_equal_pairs_i; // 3265. Count Almost Equal Pairs I
 pub mod e3291_minimum_number_of_valid_strings_to_form_target_i; // 3291. Minimum Number of Valid Strings to Form Target I
 pub mod e3292_minimum_number_of_valid_strings_to_form_target_ii; // 3292. Minimum Number of Valid Strings to Form Target II
 pub mod e3229_minimum_operations_to_make_array_equal_to_target; // 3229. Minimum Operations to Make Array Equal to Target
