@@ -56,6 +56,7 @@ pub mod e705_design_hashset; // 705. Design HashSet
 pub mod e706_design_hashmap; // 706. Design HashMap
 pub mod e707_design_linked_list; // 707. Design Linked List
 pub mod e709_to_lower_case; // 709. To Lower Case
+pub mod e710_random_pick_with_blacklist; // 710. Random Pick with Blacklist
 pub mod e712_minimum_ascii_delete_sum_for_two_strings; // 712. Minimum ASCII Delete Sum for Two Strings
 pub mod e713_subarray_product_less_than_k; // 713. Subarray Product Less Than K
 pub mod e714_best_time_to_buy_and_sell_stock_with_transaction_fee; // 714. Best Time to Buy and Sell Stock with Transaction Fee
