@@ -9,6 +9,7 @@ pub mod e3434_maximum_frequency_after_subarray_operation; // 3434. Maximum Frequ
 pub mod e3442_maximum_difference_between_even_and_odd_frequency_i; // 3442. Maximum Difference Between Even and Odd Frequency I
 pub mod e3446_sort_matrix_by_diagonals; // 3446. Sort Matrix by Diagonals
 pub mod e3467_transform_array_by_parity; // 3467. Transform Array by Parity
+pub mod e3471_find_the_largest_almost_missing_integer; // 3471. Find the Largest Almost Missing Integer
 pub mod e3477_fruits_into_baskets_ii; // 3477. Fruits Into Baskets II
 pub mod e3487_maximum_unique_subarray_sum_after_deletion; // 3487. Maximum Unique Subarray Sum After Deletion
 pub mod e3489_zero_array_transformation_iv; // 3489. Zero Array Transformation IV
