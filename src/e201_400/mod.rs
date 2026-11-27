@@ -123,6 +123,7 @@ pub mod e377_combination_sum_iv; // 377. Combination Sum IV
 pub mod e378_kth_smallest_element_in_a_sorted_matrix; // 378. Kth Smallest Element in a Sorted Matrix
 pub mod e382_linked_list_random_node; // 382. Linked List Random Node
 pub mod e383_ransom_note; // 383. Ransom Note
+pub mod e384_shuffle_an_array; // 384. Shuffle an Array
 pub mod e385_mini_parser; // 385. Mini Parser
 pub mod e386_lexicographical_numbers; // 386. Lexicographical Numbers
 pub mod e387_first_unique_character_in_a_string; // 387. First Unique Character in a String
