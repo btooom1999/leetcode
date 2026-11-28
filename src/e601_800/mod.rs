@@ -11,6 +11,7 @@ pub mod e636_exclusive_time_of_functions; // 636. Exclusive Time of Functions
 pub mod e637_average_of_levels_in_binary_tree; // 637. Average of Levels in Binary Tree
 pub mod e638_shopping_offers; // 638. Shopping Offers
 pub mod e640_solve_the_equation; // 640. Solve the Equation
+pub mod e641_design_circular_deque; // 641. Design Circular Deque
 pub mod e643_maximum_average_subarray_i; // 643. Maximum Average Subarray I
 pub mod e645_set_mismatch; // 645. Set Mismatch
 pub mod e646_maximum_length_of_pair_chain; // 646. Maximum Length of Pair Chain
